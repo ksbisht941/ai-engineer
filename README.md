@@ -25,7 +25,10 @@ The project is organized into the following modules:
   - [8_python_oop_part1.ipynb](./python/8_python_oop_part1.ipynb): Classes, objects, 'self', and dunder methods.
   - [9_python_oop_part2.ipynb](./python/9_python_oop_part2.ipynb): Encapsulation, static members, and reference variables.
   - [10_python_oop_part3.ipynb](./python/10_python_oop_part3.ipynb): Aggregation, inheritance types, MRO, polymorphism, and abstraction.
-  - [11_python_exception_handling.ipynb](./python/11_python_exception_handling.ipynb): Syntax errors vs. exceptions, try-except blocks, and custom error types.
+  - [11_python_exception_handling.ipynb](./python/11_python_exception_handling.ipynb): Robust error management with try-except.
+  - [12_python_decorators.ipynb](./python/12_python_decorators.ipynb): Function wrapping and LEGB scope rules.
+  - [13_python_iterators.ipynb](./python/13_python_iterators.ipynb): Traversal protocols and custom iteration logic.
+  - [14_python_generators.ipynb](./python/14_python_generators.ipynb): Memory-efficient data processing with yield.
 - **[matplotlib](./matplotlib)**: Data visualization techniques using Matplotlib and Seaborn.
 
 ## Getting Started
