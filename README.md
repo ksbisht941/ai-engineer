@@ -9,6 +9,10 @@ The project is organized into the following modules:
 - **[gen-ai](./gen-ai)**: A comprehensive collection of Generative AI projects, including chat models, embedding models, and applications like CineSage. 
 - **[nlp](./nlp)**: Notebooks covering core NLP tasks such as text preprocessing, POS tagging, Named Entity Recognition (NER), and sentiment analysis.
 - **[numpy](./numpy)**: Fundamental numerical computing with NumPy.
+  - [1_1_numpy_basics.ipynb](./numpy/1_1_numpy_basics.ipynb): Basics, random generation, attributes.
+  - [1_2_numpy_indexing_slicing.ipynb](./numpy/1_2_numpy_indexing_slicing.ipynb): Reshaping, indexing, and slicing.
+  - [1_3_numpy_operations.ipynb](./numpy/1_3_numpy_operations.ipynb): Element-wise and advanced operations.
+  - [1_4_numpy_exercises.ipynb](./numpy/1_4_numpy_exercises.ipynb): Practice problems and exercises.
 - **[pandas](./pandas)**: Data manipulation and analysis using Pandas.
 - **[matplotlib](./matplotlib)**: Data visualization techniques using Matplotlib and Seaborn.
 
