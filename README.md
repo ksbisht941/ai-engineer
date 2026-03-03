@@ -14,6 +14,10 @@ The project is organized into the following modules:
   - [1_3_numpy_operations.ipynb](./numpy/1_3_numpy_operations.ipynb): Element-wise and advanced operations.
   - [1_4_numpy_exercises.ipynb](./numpy/1_4_numpy_exercises.ipynb): Practice problems and exercises.
 - **[pandas](./pandas)**: Data manipulation and analysis using Pandas.
+- **[python](./python)**: Foundations of Python programming.
+  - [1_python_basics.ipynb](./python/1_python_basics.ipynb): Print, data types, variables, and literals.
+  - [2_python_operators_loops.ipynb](./python/2_python_operators_loops.ipynb): Operators, if-else, modules, and loops.
+  - [3_python_loops_strings.ipynb](./python/3_python_loops_strings.ipynb): Advanced loops and string manipulation.
 - **[matplotlib](./matplotlib)**: Data visualization techniques using Matplotlib and Seaborn.
 
 ## Getting Started
@@ -24,10 +28,35 @@ Each directory contains specific notebooks or scripts related to the topic. Most
 
 - Python 3.x
 - Jupyter Notebook / JupyterLab or VS Code with Jupyter extension
-- Required libraries (can be installed via `pip install <library_name>` as needed based on notebook imports):
+
+### Setup Environment
+
+To run the notebooks in this repository, it is recommended to use the provided virtual environment:
+
+1. **Create and Activate Virtual Environment**:
+   ```bash
+   # Create the environment (if not already created)
+   python3 -m venv .venv
+
+   # Activate the environment
+   # On macOS/Linux:
+   source .venv/bin/activate
+   ```
+
+2. **Install Dependencies**:
+   ```bash
+   pip install --upgrade pip
+   pip install ipykernel numpy pandas matplotlib seaborn scikit-learn
+   ```
+
+3. **Select Kernel in VS Code**:
+   When opening a `.ipynb` file, click on "Select Kernel" in the top right corner and choose the `.venv` environment.
+
+Required libraries include:
   - `numpy`
   - `pandas`
   - `matplotlib`
   - `seaborn`
+  - `scikit-learn`
   - `nltk` / `spacy` (for NLP)
   - `google-generativeai` / `langchain` (for Gen-AI)
