@@ -29,6 +29,10 @@ The project is organized into the following modules:
   - [12_python_decorators.ipynb](./python/12_python_decorators.ipynb): Function wrapping and LEGB scope rules.
   - [13_python_iterators.ipynb](./python/13_python_iterators.ipynb): Traversal protocols and custom iteration logic.
   - [14_python_generators.ipynb](./python/14_python_generators.ipynb): Memory-efficient data processing with yield.
+- **[machine-learning](./machine-learning)**: Practical machine learning projects and applications.
+  - [ford-car-price-prediction](./machine-learning/ford-car-price-prediction): Predicting car prices based on features.
+  - [heart-disease-prediction](./machine-learning/heart-disease-prediction): Classification of heart disease risk.
+  - [insurance-coverage-prediction](./machine-learning/insurance-coverage-prediction): Predicting insurance coverage costs.
 - **[matplotlib](./matplotlib)**: Data visualization techniques using Matplotlib and Seaborn.
 
 ## Getting Started
