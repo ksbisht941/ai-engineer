@@ -6,29 +6,50 @@ This repository contains various projects, notebooks, and resources for AI and M
 
 The project is organized into the following modules:
 
+- **[python](./python)**: Foundations of Python programming.
+
+  | Notebook | Description |
+  | :--- | :--- |
+  | [1_python_basics.ipynb](./python/1_python_basics.ipynb) | Print, data types, variables, and literals. |
+  | [2_python_operators_loops.ipynb](./python/2_python_operators_loops.ipynb) | Operators, if-else, modules, and loops. |
+  | [3_python_loops_strings.ipynb](./python/3_python_loops_strings.ipynb) | Advanced loops and string manipulation. |
+  | [4_time_complexity.ipynb](./python/4_time_complexity.ipynb) | Efficiency, Big O, and examples. |
+  | [5_python_lists.ipynb](./python/5_python_lists.ipynb) | Memory management, methods, and comprehensions. |
+  | [6_python_tuples_sets_dicts.ipynb](./python/6_python_tuples_sets_dicts.ipynb) | Immutability of tuples, unique sets, and key-value dictionaries. |
+  | [7_python_functions.ipynb](./python/7_python_functions.ipynb) | Creation, scope, closures, and functional programming. |
+  | [8_python_oop_part1.ipynb](./python/8_python_oop_part1.ipynb) | Classes, objects, 'self', and dunder methods. |
+  | [9_python_oop_part2.ipynb](./python/9_python_oop_part2.ipynb) | Encapsulation, static members, and reference variables. |
+  | [10_python_oop_part3.ipynb](./python/10_python_oop_part3.ipynb) | Aggregation, inheritance types, MRO, polymorphism, and abstraction. |
+  | [11_python_exception_handling.ipynb](./python/11_python_exception_handling.ipynb) | Robust error management with try-except. |
+  | [12_python_decorators.ipynb](./python/12_python_decorators.ipynb) | Function wrapping and LEGB scope rules. |
+  | [13_python_iterators.ipynb](./python/13_python_iterators.ipynb) | Traversal protocols and custom iteration logic. |
+  | [14_python_generators.ipynb](./python/14_python_generators.ipynb) | Memory-efficient data processing with yield. |
+
+- **[numpy](./numpy)**: Fundamental numerical computing with NumPy.
+
+  | Notebook | Description |
+  | :--- | :--- |
+  | [1_numpy_basics.ipynb](./numpy/1_numpy_basics.ipynb) | Basics, random generation, attributes. |
+  | [2_numpy_indexing_slicing.ipynb](./numpy/2_numpy_indexing_slicing.ipynb) | Reshaping, indexing, and slicing. |
+  | [3_numpy_operations.ipynb](./numpy/3_numpy_operations.ipynb) | Element-wise and advanced operations. |
+  | [4_numpy_exercises.ipynb](./numpy/4_numpy_exercises.ipynb) | Practice problems and exercises. |
+
 - **[gen-ai](./gen-ai)**: A comprehensive collection of Generative AI projects, including chat models, embedding models, and applications like CineSage. 
 - **[nlp](./nlp)**: Notebooks covering core NLP tasks such as text preprocessing, POS tagging, Named Entity Recognition (NER), and sentiment analysis.
-- **[numpy](./numpy)**: Fundamental numerical computing with NumPy.
-  - [1_1_numpy_basics.ipynb](./numpy/1_1_numpy_basics.ipynb): Basics, random generation, attributes.
-  - [1_2_numpy_indexing_slicing.ipynb](./numpy/1_2_numpy_indexing_slicing.ipynb): Reshaping, indexing, and slicing.
-  - [1_3_numpy_operations.ipynb](./numpy/1_3_numpy_operations.ipynb): Element-wise and advanced operations.
-  - [1_4_numpy_exercises.ipynb](./numpy/1_4_numpy_exercises.ipynb): Practice problems and exercises.
+
+
+- **[opencv](./opencv)**: Computer vision and image processing with OpenCV.
+
+  | Notebook | Description |
+  | :--- | :--- |
+  | [1_opencv_basics.ipynb](./opencv/1_opencv_basics.ipynb) | Installation and basic image I/O. |
+  | [2_opencv_transformations.ipynb](./opencv/2_opencv_transformations.ipynb) | Resizing, cropping, rotation, and flipping. |
+  | [3_opencv_processing.ipynb](./opencv/3_opencv_processing.ipynb) | Blurring, edge detection, and thresholding. |
+  | [4_opencv_drawing.ipynb](./opencv/4_opencv_drawing.ipynb) | Drawing shapes (lines, rectangles, circles) and text. |
+
 - **[pandas](./pandas)**: Data manipulation and analysis using Pandas.
-- **[python](./python)**: Foundations of Python programming.
-  - [1_python_basics.ipynb](./python/1_python_basics.ipynb): Print, data types, variables, and literals.
-  - [2_python_operators_loops.ipynb](./python/2_python_operators_loops.ipynb): Operators, if-else, modules, and loops.
-  - [3_python_loops_strings.ipynb](./python/3_python_loops_strings.ipynb): Advanced loops and string manipulation.
-  - [4_time_complexity.ipynb](./python/4_time_complexity.ipynb): Efficiency, Big O, and examples.
-  - [5_python_lists.ipynb](./python/5_python_lists.ipynb): Memory management, methods, and comprehensions.
-  - [6_python_tuples_sets_dicts.ipynb](./python/6_python_tuples_sets_dicts.ipynb): Immutability of tuples, unique sets, and key-value dictionaries.
-  - [7_python_functions.ipynb](./python/7_python_functions.ipynb): Creation, scope, closures, and functional programming.
-  - [8_python_oop_part1.ipynb](./python/8_python_oop_part1.ipynb): Classes, objects, 'self', and dunder methods.
-  - [9_python_oop_part2.ipynb](./python/9_python_oop_part2.ipynb): Encapsulation, static members, and reference variables.
-  - [10_python_oop_part3.ipynb](./python/10_python_oop_part3.ipynb): Aggregation, inheritance types, MRO, polymorphism, and abstraction.
-  - [11_python_exception_handling.ipynb](./python/11_python_exception_handling.ipynb): Robust error management with try-except.
-  - [12_python_decorators.ipynb](./python/12_python_decorators.ipynb): Function wrapping and LEGB scope rules.
-  - [13_python_iterators.ipynb](./python/13_python_iterators.ipynb): Traversal protocols and custom iteration logic.
-  - [14_python_generators.ipynb](./python/14_python_generators.ipynb): Memory-efficient data processing with yield.
+
+
 - **[machine-learning](./machine-learning)**: Practical machine learning projects and applications.
   - [ford-car-price-prediction](./machine-learning/ford-car-price-prediction): Predicting car prices based on features.
   - [heart-disease-prediction](./machine-learning/heart-disease-prediction): Classification of heart disease risk.
