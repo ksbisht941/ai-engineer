@@ -22,6 +22,7 @@ The project is organized into the following modules:
   - [5_python_lists.ipynb](./python/5_python_lists.ipynb): Memory management, methods, and comprehensions.
   - [6_python_tuples_sets_dicts.ipynb](./python/6_python_tuples_sets_dicts.ipynb): Immutability of tuples, unique sets, and key-value dictionaries.
   - [7_python_functions.ipynb](./python/7_python_functions.ipynb): Creation, scope, closures, and functional programming.
+  - [8_python_oop_part1.ipynb](./python/8_python_oop_part1.ipynb): Classes, objects, 'self', and dunder methods.
 - **[matplotlib](./matplotlib)**: Data visualization techniques using Matplotlib and Seaborn.
 
 ## Getting Started
