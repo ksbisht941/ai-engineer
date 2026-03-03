@@ -18,6 +18,8 @@ The project is organized into the following modules:
   - [1_python_basics.ipynb](./python/1_python_basics.ipynb): Print, data types, variables, and literals.
   - [2_python_operators_loops.ipynb](./python/2_python_operators_loops.ipynb): Operators, if-else, modules, and loops.
   - [3_python_loops_strings.ipynb](./python/3_python_loops_strings.ipynb): Advanced loops and string manipulation.
+  - [4_time_complexity.ipynb](./python/4_time_complexity.ipynb): Efficiency, Big O, and examples.
+  - [5_python_lists.ipynb](./python/5_python_lists.ipynb): Memory management, methods, and comprehensions.
 - **[matplotlib](./matplotlib)**: Data visualization techniques using Matplotlib and Seaborn.
 
 ## Getting Started
