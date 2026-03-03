@@ -21,6 +21,7 @@ The project is organized into the following modules:
   - [4_time_complexity.ipynb](./python/4_time_complexity.ipynb): Efficiency, Big O, and examples.
   - [5_python_lists.ipynb](./python/5_python_lists.ipynb): Memory management, methods, and comprehensions.
   - [6_python_tuples_sets_dicts.ipynb](./python/6_python_tuples_sets_dicts.ipynb): Immutability of tuples, unique sets, and key-value dictionaries.
+  - [7_python_functions.ipynb](./python/7_python_functions.ipynb): Creation, scope, closures, and functional programming.
 - **[matplotlib](./matplotlib)**: Data visualization techniques using Matplotlib and Seaborn.
 
 ## Getting Started
