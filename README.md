@@ -35,7 +35,14 @@ The project is organized into the following modules:
   | [4_numpy_exercises.ipynb](./numpy/4_numpy_exercises.ipynb) | Practice problems and exercises. |
 
 - **[gen-ai](./gen-ai)**: A comprehensive collection of Generative AI projects, including chat models, embedding models, and applications like CineSage. 
-- **[nlp](./nlp)**: Notebooks covering core NLP tasks such as text preprocessing, POS tagging, Named Entity Recognition (NER), and sentiment analysis.
+- **[nlp](./nlp)**: Comprehensive NLP modules covering text processing and analysis.
+
+  | Module | Notebook | Description |
+  | :--- | :--- | :--- |
+  | **Text Preprocessing** | [nlp_text_preprocessing.ipynb](./nlp/text-preprocessing/nlp_text_preprocessing.ipynb) | Lowercasing, stop words, regex, and tokenization. |
+  | **POS & NER** | [nlp_identify_pos_and_names_entities.ipynb](./nlp/identify-pos-and-names-entities/nlp_identify_pos_and_names_entities.ipynb) | Parts-of-speech tagging and Named Entity Recognition. |
+  | **Sentiment Analysis** | [nlp_sentiment_analysis.ipynb](./nlp/sentiment-analysis/nlp_sentiment_analysis.ipynb) | Analyzing text sentiment and emotions. |
+
 
 
 - **[opencv](./opencv)**: Computer vision and image processing with OpenCV.
@@ -46,6 +53,9 @@ The project is organized into the following modules:
   | [2_opencv_transformations.ipynb](./opencv/2_opencv_transformations.ipynb) | Resizing, cropping, rotation, and flipping. |
   | [3_opencv_processing.ipynb](./opencv/3_opencv_processing.ipynb) | Blurring, edge detection, and thresholding. |
   | [4_opencv_drawing.ipynb](./opencv/4_opencv_drawing.ipynb) | Drawing shapes (lines, rectangles, circles) and text. |
+  | [5_opencv_video.ipynb](./opencv/5_opencv_video.ipynb) | Video capture and processing basics. |
+  | [motion_detector.ipynb](./opencv/motion_detector.ipynb) | Real-time motion detection implementation. |
+
 
 - **[pandas](./pandas)**: Data manipulation and analysis using Pandas.
 
