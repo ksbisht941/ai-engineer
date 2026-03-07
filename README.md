@@ -54,7 +54,8 @@ The project is organized into the following modules:
   | [3_opencv_processing.ipynb](./opencv/3_opencv_processing.ipynb) | Blurring, edge detection, and thresholding. |
   | [4_opencv_drawing.ipynb](./opencv/4_opencv_drawing.ipynb) | Drawing shapes (lines, rectangles, circles) and text. |
   | [5_opencv_video.ipynb](./opencv/5_opencv_video.ipynb) | Video capture and processing basics. |
-  | [motion_detector.ipynb](./opencv/motion_detector.ipynb) | Real-time motion detection implementation. |
+  | [6_gesture_control.ipynb](./opencv/6_gesture_control.ipynb) | Hand gesture control using MediaPipe. |
+  | [7_motion_detector.ipynb](./opencv/7_motion_detector.ipynb) | Real-time motion detection implementation. |
 
 
 - **[pandas](./pandas)**: Data manipulation and analysis using Pandas.
@@ -71,6 +72,9 @@ The project is organized into the following modules:
 
 
 - **[machine-learning](./machine-learning)**: Practical machine learning projects and applications.
+  - **Algorithms**:
+    - [linear-regression.ipynb](./machine-learning/algorithms/linear-regression.ipynb): Implementation of Linear Regression.
+    - [logistic-regression.ipynb](./machine-learning/algorithms/logistic-regression.ipynb): Implementation of Logistic Regression.
   - [ford-car-price-prediction](./machine-learning/ford-car-price-prediction): Predicting car prices based on features.
   - [heart-disease-prediction](./machine-learning/heart-disease-prediction): Classification of heart disease risk.
   - [insurance-coverage-prediction](./machine-learning/insurance-coverage-prediction): Predicting insurance coverage costs.
