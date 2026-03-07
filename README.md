@@ -60,6 +60,16 @@ The project is organized into the following modules:
 - **[pandas](./pandas)**: Data manipulation and analysis using Pandas.
 
 
+- **[statistics](./statistics)**: Statistical hypothesis testing and outlier detection.
+
+  | Notebook | Description |
+  | :--- | :--- |
+  | [chi-square.ipynb](./statistics/chi-square.ipynb) | Chi-Square test implementation. |
+  | [outliers.ipynb](./statistics/outliers.ipynb) | Outlier detection techniques. |
+  | [t-test.ipynb](./statistics/t-test.ipynb) | T-Test implementation. |
+  | [z-test.ipynb](./statistics/z-test.ipynb) | Z-Test implementation. |
+
+
 - **[machine-learning](./machine-learning)**: Practical machine learning projects and applications.
   - [ford-car-price-prediction](./machine-learning/ford-car-price-prediction): Predicting car prices based on features.
   - [heart-disease-prediction](./machine-learning/heart-disease-prediction): Classification of heart disease risk.
