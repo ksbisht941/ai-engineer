@@ -34,7 +34,12 @@ The project is organized into the following modules:
   | [3_numpy_operations.ipynb](./numpy/3_numpy_operations.ipynb) | Element-wise and advanced operations. |
   | [4_numpy_exercises.ipynb](./numpy/4_numpy_exercises.ipynb) | Practice problems and exercises. |
 
-- **[gen-ai](./gen-ai)**: A comprehensive collection of Generative AI projects, including chat models, embedding models, and applications like CineSage. 
+- **[gen-ai](./gen-ai)**: A comprehensive collection of Generative AI projects, including:
+  - **[chat-models](./gen-ai/chat-models)**: Various LLM chat implementations.
+  - **[embedding-models](./gen-ai/embedding-models)**: Vector embedding generation.
+  - **[cine-sage](./gen-ai/cine-sage)**: Structured movie metadata extraction.
+  - **[rag](./gen-ai/rag)**: Retrieval Augmented Generation components.
+  
 - **[nlp](./nlp)**: Comprehensive NLP modules covering text processing and analysis.
 
   | Module | Notebook | Description |
@@ -65,6 +70,7 @@ The project is organized into the following modules:
 
   | Notebook | Description |
   | :--- | :--- |
+  | [central-tendency.ipynb](./statistics/central-tendency.ipynb) | Mean, median, and mode implementation. |
   | [chi-square.ipynb](./statistics/chi-square.ipynb) | Chi-Square test implementation. |
   | [outliers.ipynb](./statistics/outliers.ipynb) | Outlier detection techniques. |
   | [t-test.ipynb](./statistics/t-test.ipynb) | T-Test implementation. |

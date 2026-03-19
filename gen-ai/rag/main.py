@@ -6,10 +6,19 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-loader = PyPDFLoader("document_loader/GRU.pdf")
+loader = PyPDFLoader("document_loader/deep_learning.pdf")
 documents = loader.load()
 
-print(documents)
+# print(documents)
+
+splitter = RecursiveCharacterTextSplitter(
+    chunk_size=1000,
+    chunk_overlap=200,
+)
+
+chunks = splitter.split_documents(documents)
+
+# print(chunks)
 
 template = ChatPromptTemplate.from_messages(
     [("system", "you are a AI that summarize the text"), ("human", "{data}")]

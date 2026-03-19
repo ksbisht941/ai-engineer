@@ -1,5 +1,4 @@
 from langchain_text_splitters import CharacterTextSplitter
-from langchain_text_splitters import TextSplitter
 from langchain_community.document_loaders import TextLoader
 
 splitter = CharacterTextSplitter(
