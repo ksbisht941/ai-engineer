@@ -2,6 +2,8 @@ langchain
 langchain-core
 langchain-community
 
+langchain-google-genai
+
 # LLM Providers
 
 langchain-openai
@@ -50,3 +52,6 @@ streamlit
 
 tqdm
 requests
+
+# Retrievers
+arxiv

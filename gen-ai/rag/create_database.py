@@ -1,7 +1,7 @@
-# from langchain_community.document_loaders import TextLoader
 from langchain_community.document_loaders import PyPDFLoader
-from langchain_mistralai import ChatMistralAI
-from langchain_core.prompts import ChatPromptTemplate
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain_google_genai import GoogleGenerativeAIEmbeddings
+from langchain_community.vectorstores import Chroma
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -26,19 +26,12 @@ embeddings = GoogleGenerativeAIEmbeddings(
 )
 
 vectorstore = Chroma.from_documents(
-    documents=docs,
+    documents=chunks,
     embedding=embeddings,
     persist_directory="./chroma_database",
 )
 
-template = ChatPromptTemplate.from_messages(
-    [("system", "you are a AI that summarize the text"), ("human", "{data}")]
-)
+result = vectorstore.similarity_search("What is deep learning?", k=1)
 
-model = ChatMistralAI(model="mistral-small-2506")
-
-prompt = template.format_messages(data=documents[0].page_content)
-
-response = model.invoke(prompt)
-
-print(response.content)
+for doc in result:
+    print(doc.page_content)
