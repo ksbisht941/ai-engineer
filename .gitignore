@@ -6,6 +6,10 @@ __pycache__/
 .venv/
 .env
 .ipynb_checkpoints/
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
 
 # OS specific
 .DS_Store
@@ -16,4 +20,8 @@ __pycache__/
 ehthumbs.db
 Thumbs.db
 
+# Databases and Large Files
 chroma_database/
+*.db
+*.sqlite3
+resources/

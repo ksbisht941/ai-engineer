@@ -1,17 +1,13 @@
 """
-Main entry point for the FastAPI application.
+Main entry point for the FastAPI v3 Production application.
 """
 from fastapi import FastAPI
-from app.routes import router
-from app.database import Base, engine
+from app.api.routes import router
 
-# Initialize the FastAPI app
-app = FastAPI(title="FastAPI v2")
+# Initialize the FastAPI app with production settings
+app = FastAPI(title="FastAPI v3 Production")
 
-# Create database tables on startup
-Base.metadata.create_all(bind=engine)
-
-# Include the API routes
+# Include the API routes from the separated API layer
 app.include_router(router)
 
 
@@ -20,4 +16,4 @@ def root():
     """
     Root endpoint to verify the API is running.
     """
-    return {"message": "API with DB is running"}
+    return {"message": "FastAPI v3 Production is running"}
