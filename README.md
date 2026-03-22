@@ -34,12 +34,36 @@ The project is organized into the following modules:
   | [3_numpy_operations.ipynb](./numpy/3_numpy_operations.ipynb) | Element-wise and advanced operations. |
   | [4_numpy_exercises.ipynb](./numpy/4_numpy_exercises.ipynb) | Practice problems and exercises. |
 
-- **[gen-ai](./gen-ai)**: A comprehensive collection of Generative AI projects, including:
-  - **[chat-models](./gen-ai/chat-models)**: Various LLM chat implementations.
-  - **[embedding-models](./gen-ai/embedding-models)**: Vector embedding generation.
-  - **[cine-sage](./gen-ai/cine-sage)**: Structured movie metadata extraction.
-  - **[rag](./gen-ai/rag)**: Retrieval Augmented Generation components.
-  
+- **[pandas](./pandas)**: Data manipulation and analysis using Pandas.
+
+  | Notebook | Description |
+  | :--- | :--- |
+  | [1_pandas.ipynb](./pandas/1_pandas.ipynb) | Data cleaning, transformation, and analysis. |
+
+- **[matplotlib](./matplotlib)**: Data visualization techniques using Matplotlib and Seaborn.
+
+  | Notebook | Description |
+  | :--- | :--- |
+  | [3_matplotib_seaborn.ipynb](./matplotlib/3_matplotib_seaborn.ipynb) | Data visualization with Matplotlib and Seaborn. |
+
+- **[statistics](./statistics)**: Statistical hypothesis testing and outlier detection.
+
+  | Notebook | Description |
+  | :--- | :--- |
+  | [central-tendency.ipynb](./statistics/central-tendency.ipynb) | Mean, median, and mode implementation. |
+  | [chi-square.ipynb](./statistics/chi-square.ipynb) | Chi-Square test implementation. |
+  | [outliers.ipynb](./statistics/outliers.ipynb) | Outlier detection techniques. |
+  | [t-test.ipynb](./statistics/t-test.ipynb) | T-Test implementation. |
+  | [z-test.ipynb](./statistics/z-test.ipynb) | Z-Test implementation. |
+
+- **[machine-learning](./machine-learning)**: Practical machine learning projects and applications.
+  - **Algorithms**:
+    - [linear-regression.ipynb](./machine-learning/algorithms/linear-regression.ipynb): Implementation of Linear Regression.
+    - [logistic-regression.ipynb](./machine-learning/algorithms/logistic-regression.ipynb): Implementation of Logistic Regression.
+  - [ford-car-price-prediction](./machine-learning/ford-car-price-prediction): Predicting car prices based on features.
+  - [heart-disease-prediction](./machine-learning/heart-disease-prediction): Classification of heart disease risk.
+  - [insurance-coverage-prediction](./machine-learning/insurance-coverage-prediction): Predicting insurance coverage costs.
+
 - **[nlp](./nlp)**: Comprehensive NLP modules covering text processing and analysis.
 
   | Module | Notebook | Description |
@@ -47,8 +71,6 @@ The project is organized into the following modules:
   | **Text Preprocessing** | [nlp_text_preprocessing.ipynb](./nlp/text-preprocessing/nlp_text_preprocessing.ipynb) | Lowercasing, stop words, regex, and tokenization. |
   | **POS & NER** | [nlp_identify_pos_and_names_entities.ipynb](./nlp/identify-pos-and-names-entities/nlp_identify_pos_and_names_entities.ipynb) | Parts-of-speech tagging and Named Entity Recognition. |
   | **Sentiment Analysis** | [nlp_sentiment_analysis.ipynb](./nlp/sentiment-analysis/nlp_sentiment_analysis.ipynb) | Analyzing text sentiment and emotions. |
-
-
 
 - **[opencv](./opencv)**: Computer vision and image processing with OpenCV.
 
@@ -62,29 +84,19 @@ The project is organized into the following modules:
   | [6_gesture_control.ipynb](./opencv/6_gesture_control.ipynb) | Hand gesture control using MediaPipe. |
   | [7_motion_detector.ipynb](./opencv/7_motion_detector.ipynb) | Real-time motion detection implementation. |
 
+- **[gen-ai](./gen-ai)**: A comprehensive collection of Generative AI projects, including:
+  - **[chat-models](./gen-ai/chat-models)**: Various LLM chat implementations.
+  - **[embedding-models](./gen-ai/embedding-models)**: Vector embedding generation.
+  - **[cine-sage](./gen-ai/cine-sage)**: Structured movie metadata extraction.
+  - **[rag](./gen-ai/rag)**: Retrieval Augmented Generation components.
 
-- **[pandas](./pandas)**: Data manipulation and analysis using Pandas.
+- **[fastapi](./fastapi)**: Production-grade web applications using FastAPI.
+  - **[backend-forge](./fastapi/backend-forge)**: A modular FastAPI starter with asynchronous database support (asyncpg, SQLAlchemy), Alembic migrations, and environment-based configuration.
 
+- **[resources](./resources)**: Reference materials and books.
+  - Includes PDF guides on Deep Learning, Large Language Models, and Machine Learning.
 
-- **[statistics](./statistics)**: Statistical hypothesis testing and outlier detection.
-
-  | Notebook | Description |
-  | :--- | :--- |
-  | [central-tendency.ipynb](./statistics/central-tendency.ipynb) | Mean, median, and mode implementation. |
-  | [chi-square.ipynb](./statistics/chi-square.ipynb) | Chi-Square test implementation. |
-  | [outliers.ipynb](./statistics/outliers.ipynb) | Outlier detection techniques. |
-  | [t-test.ipynb](./statistics/t-test.ipynb) | T-Test implementation. |
-  | [z-test.ipynb](./statistics/z-test.ipynb) | Z-Test implementation. |
-
-
-- **[machine-learning](./machine-learning)**: Practical machine learning projects and applications.
-  - **Algorithms**:
-    - [linear-regression.ipynb](./machine-learning/algorithms/linear-regression.ipynb): Implementation of Linear Regression.
-    - [logistic-regression.ipynb](./machine-learning/algorithms/logistic-regression.ipynb): Implementation of Logistic Regression.
-  - [ford-car-price-prediction](./machine-learning/ford-car-price-prediction): Predicting car prices based on features.
-  - [heart-disease-prediction](./machine-learning/heart-disease-prediction): Classification of heart disease risk.
-  - [insurance-coverage-prediction](./machine-learning/insurance-coverage-prediction): Predicting insurance coverage costs.
-- **[matplotlib](./matplotlib)**: Data visualization techniques using Matplotlib and Seaborn.
+- **[roadmap](./roadmap)**: Career paths and learning roadmaps for AI engineering.
 
 ## Getting Started
 
