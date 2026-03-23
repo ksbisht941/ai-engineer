@@ -84,11 +84,11 @@ The project is organized into the following modules:
   | [6_gesture_control.ipynb](./opencv/6_gesture_control.ipynb) | Hand gesture control using MediaPipe. |
   | [7_motion_detector.ipynb](./opencv/7_motion_detector.ipynb) | Real-time motion detection implementation. |
 
-- **[gen-ai](./gen-ai)**: A comprehensive collection of Generative AI projects, including:
-  - **[chat-models](./gen-ai/chat-models)**: Various LLM chat implementations.
-  - **[embedding-models](./gen-ai/embedding-models)**: Vector embedding generation.
-  - **[cine-sage](./gen-ai/cine-sage)**: Structured movie metadata extraction.
-  - **[rag](./gen-ai/rag)**: Retrieval Augmented Generation components.
+- **[langchain](./langchain)**: A comprehensive collection of Generative AI projects, including:
+  - **[chat-models](./langchain/chat-models)**: Various LLM chat implementations.
+  - **[embedding-models](./langchain/embedding-models)**: Vector embedding generation.
+  - **[cine-sage](./langchain/cine-sage)**: Structured movie metadata extraction.
+  - **[rag](./langchain/rag)**: Retrieval Augmented Generation components.
 
 - **[fastapi](./fastapi)**: Production-grade web applications using FastAPI.
   - **[backend-forge](./fastapi/backend-forge)**: A modular FastAPI starter with asynchronous database support (asyncpg, SQLAlchemy), Alembic migrations, and environment-based configuration.

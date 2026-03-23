@@ -55,3 +55,11 @@ requests
 
 # Retrievers
 arxiv
+
+# Agents
+duckduckgo-search 
+langchain-experimental
+ddgs
+wikipedia
+
+langgraph-checkpoint-memory
