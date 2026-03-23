@@ -38,13 +38,20 @@ The project is organized into the following modules:
 
   | Notebook | Description |
   | :--- | :--- |
-  | [1_pandas.ipynb](./pandas/1_pandas.ipynb) | Data cleaning, transformation, and analysis. |
+  | [1_pandas_basics.ipynb](./pandas/1_pandas_basics.ipynb) | Series and DataFrame basics. |
+  | [2_pandas_selection_indexing.ipynb](./pandas/2_pandas_selection_indexing.ipynb) | Data selection, indexing, and slicing. |
+  | [3_pandas_missing_data.ipynb](./pandas/3_pandas_missing_data.ipynb) | Handling and cleaning missing data. |
+  | [4_pandas_combining_data.ipynb](./pandas/4_pandas_combining_data.ipynb) | Merging, Joining, and Concatenating DataFrames. |
+  | [5_pandas_grouping_aggregating.ipynb](./pandas/5_pandas_grouping_aggregating.ipynb) | GroupBy operations and aggregations. |
 
 - **[matplotlib](./matplotlib)**: Data visualization techniques using Matplotlib and Seaborn.
 
   | Notebook | Description |
   | :--- | :--- |
-  | [3_matplotib_seaborn.ipynb](./matplotlib/3_matplotib_seaborn.ipynb) | Data visualization with Matplotlib and Seaborn. |
+  | [1_matplotlib_basics.ipynb](./matplotlib/1_matplotlib_basics.ipynb) | Matplotlib basics and object-oriented interface. |
+  | [2_seaborn_plots.ipynb](./matplotlib/2_seaborn_plots.ipynb) | Statistical visualizations with Seaborn. |
+  | [3_plotly_cufflinks.ipynb](./matplotlib/3_plotly_cufflinks.ipynb) | Interactive charts with Plotly and Cufflinks. |
+  | [4_ipl_capstone_project.ipynb](./matplotlib/4_ipl_capstone_project.ipynb) | Data visualization project on IPL dataset. |
 
 - **[statistics](./statistics)**: Statistical hypothesis testing and outlier detection.
 
@@ -89,6 +96,19 @@ The project is organized into the following modules:
   - **[embedding-models](./langchain/embedding-models)**: Vector embedding generation.
   - **[cine-sage](./langchain/cine-sage)**: Structured movie metadata extraction.
   - **[rag](./langchain/rag)**: Retrieval Augmented Generation components.
+
+- **[langgraph](./langgraph)**: Interactive agentic workflows using LangGraph.
+
+  | Notebook | Description |
+  | :--- | :--- |
+  | [1_bmi_workflow.ipynb](./langgraph/1_bmi_workflow.ipynb) | BMI calculation workflow using StateGraph. |
+  | [2_simple_llm_workflow.ipynb](./langgraph/2_simple_llm_workflow.ipynb) | Basic LLM reasoning and response generation. |
+  | [3_prompt_chaining.ipynb](./langgraph/3_prompt_chaining.ipynb) | Advanced prompt chaining techniques for complex tasks. |
+  | [4_batsman_workflow.ipynb](./langgraph/4_batsman_workflow.ipynb) | Specialized sports data (cricket) analysis workflow. |
+  | [5_UPSC_essay_workflow.ipynb](./langgraph/5_UPSC_essay_workflow.ipynb) | Iterative essay planning and writing for UPSC. |
+  | [6_quadratic_equation_workflow.ipynb](./langgraph/6_quadratic_equation_workflow.ipynb) | Multi-step mathematical problem solving. |
+  | [7_review_reply_workflow.ipynb](./langgraph/7_review_reply_workflow.ipynb) | Automated customer review response generation. |
+
 
 - **[fastapi](./fastapi)**: Production-grade web applications using FastAPI.
   - **[backend-forge](./fastapi/backend-forge)**: A modular FastAPI starter with asynchronous database support (asyncpg, SQLAlchemy), Alembic migrations, and environment-based configuration.
