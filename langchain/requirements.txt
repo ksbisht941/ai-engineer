@@ -62,4 +62,14 @@ langchain-experimental
 ddgs
 wikipedia
 
-langgraph-checkpoint-memory
+# langgraph-checkpoint-memory
+
+fastapi
+uvicorn
+pydantic
+python-dotenv
+langchain
+langchain-google-genai
+langchain-mistralai
+langchain-community
+chromadb

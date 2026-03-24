@@ -3,31 +3,39 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_community.vectorstores import Chroma
 from langchain_mistralai import ChatMistralAI
 from langchain_core.prompts import ChatPromptTemplate
+import os
 
+# Load environment variables
 load_dotenv()
 
+# Initialize LangChain components
 embedding_model = GoogleGenerativeAIEmbeddings(
     model="gemini-embedding-001",
     encode_kwargs={"normalize_embeddings": False},
 )
 
+# Use absolute path for Chroma DB
+CHROMA_PATH = os.path.join(os.path.dirname(__file__), "chroma_database")
+if not os.path.exists(CHROMA_PATH):
+    CHROMA_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../chroma_database"))
+
 vectorstore = Chroma(
-    persist_directory= "chroma_database",
+    persist_directory=CHROMA_PATH,
     embedding_function=embedding_model
 )
 
 retriever = vectorstore.as_retriever(
-    search_type = "mmr",
-    search_kwargs = {
-        "k" : 4,
-        "fetch_k":10,
-        "lambda_mult" :0.5
+    search_type="mmr",
+    search_kwargs={
+        "k": 4,
+        "fetch_k": 10,
+        "lambda_mult": 0.5
     }
 )
 
-llm = ChatMistralAI(model = "mistral-small-2506")
+llm = ChatMistralAI(model="mistral-small-2506")
 
-#prompt template 
+# Prompt template
 prompt = ChatPromptTemplate.from_messages(
     [
         (
@@ -52,14 +60,13 @@ Question:
     ]
 )
 
-print("Rag system created ")
-
-print("press 0 to exit ")
+print("Rag system created (CLI Mode)")
+print("Press 0 to exit")
 
 while True:
-    query = input("You : ")
+    query = input("You: ")
     if query == "0":
-        break 
+        break
     
     docs = retriever.invoke(query)
 
@@ -68,7 +75,7 @@ while True:
     )
     
     final_prompt = prompt.invoke({
-        "context" :context,
+        "context": context,
         "question": query
     })
     
