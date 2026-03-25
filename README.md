@@ -63,19 +63,29 @@ The project is organized into the following modules:
   | [t-test.ipynb](./statistics/t-test.ipynb) | T-Test implementation. |
   | [z-test.ipynb](./statistics/z-test.ipynb) | Z-Test implementation. |
 
-- **[machine-learning](./machine-learning)**: Practical machine learning projects and applications.
-  - **Algorithms**:
-    - [linear-regression.ipynb](./machine-learning/algorithms/linear-regression.ipynb): Implementation of Linear Regression.
-    - [logistic-regression.ipynb](./machine-learning/algorithms/logistic-regression.ipynb): Implementation of Logistic Regression.
-  - [ford-car-price-prediction](./machine-learning/ford-car-price-prediction): Predicting car prices based on features.
-  - [heart-disease-prediction](./machine-learning/heart-disease-prediction): Classification of heart disease risk.
-  - [insurance-coverage-prediction](./machine-learning/insurance-coverage-prediction): Predicting insurance coverage costs.
+- **[machine-learning](./machine-learning)**: Practical machine learning modules covering algorithms, feature scaling, and end-to-end projects.
+
+  | Module | Notebook / Resource | Description |
+  | :--- | :--- | :--- |
+  | **Models** | [linear-regression.ipynb](./machine-learning/models/linear-regression.ipynb) | Implementation of Linear Regression. |
+  |                | [logistic-regression.ipynb](./machine-learning/models/logistic-regression.ipynb) | Implementation of Logistic Regression. |
+  | **Feature Scaling** | [standard-scaler.ipynb](./machine-learning/scaler/standard-scaler.ipynb) | Data standardization using scikit-learn's `StandardScaler`. |
+  |                     | [min-max-scaler.ipynb](./machine-learning/scaler/min-max-scaler.ipynb) | Data normalization using scikit-learn's `MinMaxScaler`. |
+  |                     | [scaling-notes.md](./machine-learning/scaler/scaling-notes.md) | Key concepts and importance of feature scaling. |
+  | **Feature Encoding** | [ordinal-encoder.ipynb](./machine-learning/encoder/ordinal-encoder.ipynb) | Categorical encoding with `OrdinalEncoder`. |
+  |                     | [one-hot-encoder.ipynb](./machine-learning/encoder/one-hot-encoder.ipynb) | Categorical encoding with `OneHotEncoder`. |
+  |                     | [label-encoder.ipynb](./machine-learning/encoder/label-encoder.ipynb) | Categorical encoding with `LabelEncoder`. |
+  | **Projects** | [ford-car-price-prediction](./machine-learning/projects/ford-car-price-prediction) | Predicting car prices based on features. |
+  |              | [heart-disease-prediction](./machine-learning/projects/heart-disease-prediction) | Classification of heart disease risk. |
+  |              | [insurance-coverage-prediction](./machine-learning/projects/insurance-coverage-prediction) | Predicting insurance coverage costs. |
+
 
 - **[nlp](./nlp)**: Comprehensive NLP modules covering text processing and analysis.
 
   | Module | Notebook | Description |
   | :--- | :--- | :--- |
   | **Text Preprocessing** | [nlp_text_preprocessing.ipynb](./nlp/text-preprocessing/nlp_text_preprocessing.ipynb) | Lowercasing, stop words, regex, and tokenization. |
+  |                        | [practice.ipynb](./nlp/text-preprocessing/practice.ipynb) | Practice exercises for text preprocessing. |
   | **POS & NER** | [nlp_identify_pos_and_names_entities.ipynb](./nlp/identify-pos-and-names-entities/nlp_identify_pos_and_names_entities.ipynb) | Parts-of-speech tagging and Named Entity Recognition. |
   | **Sentiment Analysis** | [nlp_sentiment_analysis.ipynb](./nlp/sentiment-analysis/nlp_sentiment_analysis.ipynb) | Analyzing text sentiment and emotions. |
 
@@ -91,11 +101,20 @@ The project is organized into the following modules:
   | [6_gesture_control.ipynb](./opencv/6_gesture_control.ipynb) | Hand gesture control using MediaPipe. |
   | [7_motion_detector.ipynb](./opencv/7_motion_detector.ipynb) | Real-time motion detection implementation. |
 
-- **[langchain](./langchain)**: A comprehensive collection of Generative AI projects, including:
-  - **[chat-models](./langchain/chat-models)**: Various LLM chat implementations.
-  - **[embedding-models](./langchain/embedding-models)**: Vector embedding generation.
-  - **[cine-sage](./langchain/cine-sage)**: Structured movie metadata extraction.
-  - **[rag](./langchain/rag)**: Retrieval Augmented Generation components.
+  *Resources: [input_img](./opencv/input_img), [output_img](./opencv/output_img), [output_video](./opencv/output_video).*
+
+- **[langchain](./langchain)**: A comprehensive collection of Generative AI modules and projects, including:
+  - **[chat_models](./langchain/chat_models)**: Various LLM chat implementations (OpenAI, HuggingFace, Local).
+  - **[embedding_models](./langchain/embedding_models)**: Vector embedding generation and management.
+  - **[document_loader](./langchain/document_loader)**: Loaders for PDF, Text, and Web content.
+  - **[retrievers](./langchain/retrievers)**: Advanced retrieval techniques (Arxiv, MMR, Multi-query).
+  - **[text_splitter](./langchain/text_splitter)**: Document chunking strategies.
+  - **[tools](./langchain/tools)**: Custom tool definitions for agentic workflows.
+  - **[runnable](./langchain/runnable)**: LangChain Expression Language (LCEL) and runnable components.
+  - **[vector_store](./langchain/vector_store)**: Vector database integration.
+  - **[Projects](./langchain/projects)**:
+    - **[cine-sage](./langchain/projects/cine-sage)**: Structured movie metadata extraction.
+    - **[chatbot](./langchain/projects/chatbot)**: FastAPI-based chatbot with vector database and streaming API.
 
 - **[langgraph](./langgraph)**: Interactive agentic workflows using LangGraph.
 
@@ -117,6 +136,8 @@ The project is organized into the following modules:
   - Includes PDF guides on Deep Learning, Large Language Models, and Machine Learning.
 
 - **[roadmap](./roadmap)**: Career paths and learning roadmaps for AI engineering.
+
+- **[deep-agent](./deep-agent)**: Placeholder for autonomous AI agents and deep learning research.
 
 ## Getting Started
 
