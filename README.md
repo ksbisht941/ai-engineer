@@ -10,48 +10,48 @@ The project is organized into the following modules:
 
   | Notebook | Description |
   | :--- | :--- |
-  | [1_python_basics.ipynb](./python/1_python_basics.ipynb) | Print, data types, variables, and literals. |
-  | [2_python_operators_loops.ipynb](./python/2_python_operators_loops.ipynb) | Operators, if-else, modules, and loops. |
-  | [3_python_loops_strings.ipynb](./python/3_python_loops_strings.ipynb) | Advanced loops and string manipulation. |
-  | [4_time_complexity.ipynb](./python/4_time_complexity.ipynb) | Efficiency, Big O, and examples. |
-  | [5_python_lists.ipynb](./python/5_python_lists.ipynb) | Memory management, methods, and comprehensions. |
-  | [6_python_tuples_sets_dicts.ipynb](./python/6_python_tuples_sets_dicts.ipynb) | Immutability of tuples, unique sets, and key-value dictionaries. |
-  | [7_python_functions.ipynb](./python/7_python_functions.ipynb) | Creation, scope, closures, and functional programming. |
-  | [8_python_oop_part1.ipynb](./python/8_python_oop_part1.ipynb) | Classes, objects, 'self', and dunder methods. |
-  | [9_python_oop_part2.ipynb](./python/9_python_oop_part2.ipynb) | Encapsulation, static members, and reference variables. |
-  | [10_python_oop_part3.ipynb](./python/10_python_oop_part3.ipynb) | Aggregation, inheritance types, MRO, polymorphism, and abstraction. |
-  | [11_python_exception_handling.ipynb](./python/11_python_exception_handling.ipynb) | Robust error management with try-except. |
-  | [12_python_decorators.ipynb](./python/12_python_decorators.ipynb) | Function wrapping and LEGB scope rules. |
-  | [13_python_iterators.ipynb](./python/13_python_iterators.ipynb) | Traversal protocols and custom iteration logic. |
-  | [14_python_generators.ipynb](./python/14_python_generators.ipynb) | Memory-efficient data processing with yield. |
+  | [basics.ipynb](./python/1_python_basics.ipynb) | Print, data types, variables, and literals. |
+  | [operators_loops.ipynb](./python/2_python_operators_loops.ipynb) | Operators, if-else, modules, and loops. |
+  | [loops_strings.ipynb](./python/3_python_loops_strings.ipynb) | Advanced loops and string manipulation. |
+  | [time_complexity.ipynb](./python/4_time_complexity.ipynb) | Efficiency, Big O, and examples. |
+  | [lists.ipynb](./python/5_python_lists.ipynb) | Memory management, methods, and comprehensions. |
+  | [tuples_sets_dicts.ipynb](./python/6_python_tuples_sets_dicts.ipynb) | Immutability of tuples, unique sets, and key-value dictionaries. |
+  | [functions.ipynb](./python/7_python_functions.ipynb) | Creation, scope, closures, and functional programming. |
+  | [oop_part1.ipynb](./python/8_python_oop_part1.ipynb) | Classes, objects, 'self', and dunder methods. |
+  | [oop_part2.ipynb](./python/9_python_oop_part2.ipynb) | Encapsulation, static members, and reference variables. |
+  | [oop_part3.ipynb](./python/10_python_oop_part3.ipynb) | Aggregation, inheritance types, MRO, polymorphism, and abstraction. |
+  | [exception_handling.ipynb](./python/11_python_exception_handling.ipynb) | Robust error management with try-except. |
+  | [decorators.ipynb](./python/12_python_decorators.ipynb) | Function wrapping and LEGB scope rules. |
+  | [iterators.ipynb](./python/13_python_iterators.ipynb) | Traversal protocols and custom iteration logic. |
+  | [generators.ipynb](./python/14_python_generators.ipynb) | Memory-efficient data processing with yield. |
 
 - **[numpy](./numpy)**: Fundamental numerical computing with NumPy.
 
   | Notebook | Description |
   | :--- | :--- |
-  | [1_numpy_basics.ipynb](./numpy/1_numpy_basics.ipynb) | Basics, random generation, attributes. |
-  | [2_numpy_indexing_slicing.ipynb](./numpy/2_numpy_indexing_slicing.ipynb) | Reshaping, indexing, and slicing. |
-  | [3_numpy_operations.ipynb](./numpy/3_numpy_operations.ipynb) | Element-wise and advanced operations. |
-  | [4_numpy_exercises.ipynb](./numpy/4_numpy_exercises.ipynb) | Practice problems and exercises. |
+  | [basics.ipynb](./numpy/1_numpy_basics.ipynb) | Basics, random generation, attributes. |
+  | [indexing_slicing.ipynb](./numpy/2_numpy_indexing_slicing.ipynb) | Reshaping, indexing, and slicing. |
+  | [operations.ipynb](./numpy/3_numpy_operations.ipynb) | Element-wise and advanced operations. |
+  | [exercises.ipynb](./numpy/4_numpy_exercises.ipynb) | Practice problems and exercises. |
 
 - **[pandas](./pandas)**: Data manipulation and analysis using Pandas.
 
   | Notebook | Description |
   | :--- | :--- |
-  | [1_pandas_basics.ipynb](./pandas/1_pandas_basics.ipynb) | Series and DataFrame basics. |
-  | [2_pandas_selection_indexing.ipynb](./pandas/2_pandas_selection_indexing.ipynb) | Data selection, indexing, and slicing. |
-  | [3_pandas_missing_data.ipynb](./pandas/3_pandas_missing_data.ipynb) | Handling and cleaning missing data. |
-  | [4_pandas_combining_data.ipynb](./pandas/4_pandas_combining_data.ipynb) | Merging, Joining, and Concatenating DataFrames. |
-  | [5_pandas_grouping_aggregating.ipynb](./pandas/5_pandas_grouping_aggregating.ipynb) | GroupBy operations and aggregations. |
+  | [basics.ipynb](./pandas/1_pandas_basics.ipynb) | Series and DataFrame basics. |
+  | [selection_indexing.ipynb](./pandas/2_pandas_selection_indexing.ipynb) | Data selection, indexing, and slicing. |
+  | [missing_data.ipynb](./pandas/3_pandas_missing_data.ipynb) | Handling and cleaning missing data. |
+  | [combining_data.ipynb](./pandas/4_pandas_combining_data.ipynb) | Merging, Joining, and Concatenating DataFrames. |
+  | [grouping_aggregating.ipynb](./pandas/5_pandas_grouping_aggregating.ipynb) | GroupBy operations and aggregations. |
 
 - **[matplotlib](./matplotlib)**: Data visualization techniques using Matplotlib and Seaborn.
 
   | Notebook | Description |
   | :--- | :--- |
-  | [1_matplotlib_basics.ipynb](./matplotlib/1_matplotlib_basics.ipynb) | Matplotlib basics and object-oriented interface. |
-  | [2_seaborn_plots.ipynb](./matplotlib/2_seaborn_plots.ipynb) | Statistical visualizations with Seaborn. |
-  | [3_plotly_cufflinks.ipynb](./matplotlib/3_plotly_cufflinks.ipynb) | Interactive charts with Plotly and Cufflinks. |
-  | [4_ipl_capstone_project.ipynb](./matplotlib/4_ipl_capstone_project.ipynb) | Data visualization project on IPL dataset. |
+  | [basics.ipynb](./matplotlib/1_matplotlib_basics.ipynb) | Matplotlib basics and object-oriented interface. |
+  | [seaborn_plots.ipynb](./matplotlib/2_seaborn_plots.ipynb) | Statistical visualizations with Seaborn. |
+  | [plotly_cufflinks.ipynb](./matplotlib/3_plotly_cufflinks.ipynb) | Interactive charts with Plotly and Cufflinks. |
+  | [ipl_capstone_project.ipynb](./matplotlib/4_ipl_capstone_project.ipynb) | Data visualization project on IPL dataset. |
 
 - **[statistics](./statistics)**: Statistical hypothesis testing and outlier detection.
 
@@ -97,28 +97,30 @@ The project is organized into the following modules:
 
   | Notebook | Description |
   | :--- | :--- |
-  | [1_opencv_basics.ipynb](./opencv/1_opencv_basics.ipynb) | Installation and basic image I/O. |
-  | [2_opencv_transformations.ipynb](./opencv/2_opencv_transformations.ipynb) | Resizing, cropping, rotation, and flipping. |
-  | [3_opencv_processing.ipynb](./opencv/3_opencv_processing.ipynb) | Blurring, edge detection, and thresholding. |
-  | [4_opencv_drawing.ipynb](./opencv/4_opencv_drawing.ipynb) | Drawing shapes (lines, rectangles, circles) and text. |
-  | [5_opencv_video.ipynb](./opencv/5_opencv_video.ipynb) | Video capture and processing basics. |
-  | [6_gesture_control.ipynb](./opencv/6_gesture_control.ipynb) | Hand gesture control using MediaPipe. |
-  | [7_motion_detector.ipynb](./opencv/7_motion_detector.ipynb) | Real-time motion detection implementation. |
+  | [basics.ipynb](./opencv/1_opencv_basics.ipynb) | Installation and basic image I/O. |
+  | [transformations.ipynb](./opencv/2_opencv_transformations.ipynb) | Resizing, cropping, rotation, and flipping. |
+  | [processing.ipynb](./opencv/3_opencv_processing.ipynb) | Blurring, edge detection, and thresholding. |
+  | [drawing.ipynb](./opencv/4_opencv_drawing.ipynb) | Drawing shapes (lines, rectangles, circles) and text. |
+  | [video.ipynb](./opencv/5_opencv_video.ipynb) | Video capture and processing basics. |
+  | [gesture_control.ipynb](./opencv/6_gesture_control.ipynb) | Hand gesture control using MediaPipe. |
+  | [motion_detector.ipynb](./opencv/7_motion_detector.ipynb) | Real-time motion detection implementation. |
 
   *Resources: [input_img](./opencv/input_img), [output_img](./opencv/output_img), [output_video](./opencv/output_video).*
 
-- **[langchain](./langchain)**: A comprehensive collection of Generative AI modules and projects, including:
-  - **[chat_models](./langchain/chat_models)**: Various LLM chat implementations (OpenAI, HuggingFace, Local).
-  - **[embedding_models](./langchain/embedding_models)**: Vector embedding generation and management.
-  - **[document_loader](./langchain/document_loader)**: Loaders for PDF, Text, and Web content.
-  - **[retrievers](./langchain/retrievers)**: Advanced retrieval techniques (Arxiv, MMR, Multi-query).
-  - **[text_splitter](./langchain/text_splitter)**: Document chunking strategies.
-  - **[tools](./langchain/tools)**: Custom tool definitions for agentic workflows.
-  - **[runnable](./langchain/runnable)**: LangChain Expression Language (LCEL) and runnable components.
-  - **[vector_store](./langchain/vector_store)**: Vector database integration.
-  - **[Projects](./langchain/projects)**:
-    - **[cine-sage](./langchain/projects/cine-sage)**: Structured movie metadata extraction.
-    - **[chatbot](./langchain/projects/chatbot)**: FastAPI-based chatbot with vector database and streaming API.
+- **[langchain](./langchain)**: A comprehensive collection of Generative AI modules and projects.
+
+  | Category | Module / Project | Description |
+  | :--- | :--- | :--- |
+  | **Core** | [chat_models](./langchain/chat_models) | Various LLM chat implementations (OpenAI, HuggingFace, Local). |
+  |          | [embedding_models](./langchain/embedding_models) | Vector embedding generation and management. |
+  |          | [document_loader](./langchain/document_loader) | Loaders for PDF, Text, and Web content. |
+  |          | [retrievers](./langchain/retrievers) | Advanced retrieval techniques (Arxiv, MMR, Multi-query). |
+  |          | [text_splitter](./langchain/text_splitter) | Document chunking strategies. |
+  |          | [tools](./langchain/tools) | Custom tool definitions for agentic workflows. |
+  |          | [runnable](./langchain/runnable) | LangChain Expression Language (LCEL) and runnable components. |
+  |          | [vector_store](./langchain/vector_store) | Vector database integration. |
+  | **Projects** | [cine-sage](./langchain/projects/cine-sage) | Structured movie metadata extraction. |
+  |              | [chatbot](./langchain/projects/chatbot) | FastAPI-based chatbot with vector database and streaming API. |
 
 - **[langgraph](./langgraph)**: Interactive agentic workflows using LangGraph.
 
@@ -134,14 +136,28 @@ The project is organized into the following modules:
 
 
 - **[fastapi](./fastapi)**: Production-grade web applications using FastAPI.
-  - **[backend-forge](./fastapi/backend-forge)**: A modular FastAPI starter with asynchronous database support (asyncpg, SQLAlchemy), Alembic migrations, and environment-based configuration.
+
+  | Module | Description |
+  | :--- | :--- |
+  | [backend-forge](./fastapi/backend-forge) | Modular FastAPI starter with async DB support, migrations, and config. |
 
 - **[resources](./resources)**: Reference materials and books.
-  - Includes PDF guides on Deep Learning, Large Language Models, and Machine Learning.
+
+  | Resource | Description |
+  | :--- | :--- |
+  | [Books & Guides](./resources) | PDF guides on Deep Learning, Large Language Models, and Machine Learning. |
 
 - **[roadmap](./roadmap)**: Career paths and learning roadmaps for AI engineering.
 
-- **[deep-agent](./deep-agent)**: Placeholder for autonomous AI agents and deep learning research.
+  | Resource | Description |
+  | :--- | :--- |
+  | [Learning Roadmap](./roadmap) | Career paths and structured learning journeys for AI engineering. |
+
+- **[deep-agent](./deep-agent)**: Autonomous AI agents and deep learning research.
+
+  | Module | Description |
+  | :--- | :--- |
+  | [Deep Agent](./deep-agent) | Placeholder for autonomous AI agents and deep learning research. |
 
 ## Getting Started
 
