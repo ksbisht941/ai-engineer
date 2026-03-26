@@ -63,18 +63,22 @@ The project is organized into the following modules:
   | [t-test.ipynb](./statistics/t-test.ipynb) | T-Test implementation. |
   | [z-test.ipynb](./statistics/z-test.ipynb) | Z-Test implementation. |
 
-- **[machine-learning](./machine-learning)**: Practical machine learning modules covering algorithms, feature scaling, and end-to-end projects.
+- **[machine-learning](./machine-learning)**: Practical machine learning modules covering algorithms, feature engineering, and end-to-end projects.
 
   | Module | Notebook / Resource | Description |
   | :--- | :--- | :--- |
   | **Models** | [linear-regression.ipynb](./machine-learning/models/linear-regression.ipynb) | Implementation of Linear Regression. |
   |                | [logistic-regression.ipynb](./machine-learning/models/logistic-regression.ipynb) | Implementation of Logistic Regression. |
-  | **Feature Scaling** | [standard-scaler.ipynb](./machine-learning/scaler/standard-scaler.ipynb) | Data standardization using scikit-learn's `StandardScaler`. |
-  |                     | [min-max-scaler.ipynb](./machine-learning/scaler/min-max-scaler.ipynb) | Data normalization using scikit-learn's `MinMaxScaler`. |
-  |                     | [scaling-notes.md](./machine-learning/scaler/scaling-notes.md) | Key concepts and importance of feature scaling. |
-  | **Feature Encoding** | [ordinal-encoder.ipynb](./machine-learning/encoder/ordinal-encoder.ipynb) | Categorical encoding with `OrdinalEncoder`. |
-  |                     | [one-hot-encoder.ipynb](./machine-learning/encoder/one-hot-encoder.ipynb) | Categorical encoding with `OneHotEncoder`. |
-  |                     | [label-encoder.ipynb](./machine-learning/encoder/label-encoder.ipynb) | Categorical encoding with `LabelEncoder`. |
+  | **Feature Scaling** | [standard-scaler.ipynb](./machine-learning/feature-engineering/scalers/standard-scaler.ipynb) | Data standardization using scikit-learn's `StandardScaler`. |
+  |                     | [min-max-scaler.ipynb](./machine-learning/feature-engineering/scalers/min-max-scaler.ipynb) | Data normalization using scikit-learn's `MinMaxScaler`. |
+  |                     | [scaling-notes.txt](./machine-learning/feature-engineering/scalers/scaling-notes.txt) | Key concepts and importance of feature scaling. |
+  | **Feature Encoding** | [ordinal-encoder.ipynb](./machine-learning/feature-engineering/encoders/ordinal-encoder.ipynb) | Categorical encoding with `OrdinalEncoder`. |
+  |                     | [one-hot-encoder.ipynb](./machine-learning/feature-engineering/encoders/one-hot-encoder.ipynb) | Categorical encoding with `OneHotEncoder`. |
+  |                     | [label-encoder.ipynb](./machine-learning/feature-engineering/encoders/label-encoder.ipynb) | Categorical encoding with `LabelEncoder`. |
+  | **Imputation**      | [simple-imputer.ipynb](./machine-learning/feature-engineering/imputer/simple-imputer.ipynb) | Handling missing data using `SimpleImputer`. |
+  |                     | [knn-imputer.ipynb](./machine-learning/feature-engineering/imputer/knn-imputer.ipynb) | Advanced imputation using `KNNImputer`. |
+  |                     | [imputer-notes](./machine-learning/feature-engineering/imputer/) | Detailed notes on simple, KNN, and iterative imputation. |
+  | **Transformation**  | [transformation](./machine-learning/feature-engineering/transformation/) | Placeholder for data transformation techniques. |
   | **Projects** | [ford-car-price-prediction](./machine-learning/projects/ford-car-price-prediction) | Predicting car prices based on features. |
   |              | [heart-disease-prediction](./machine-learning/projects/heart-disease-prediction) | Classification of heart disease risk. |
   |              | [insurance-coverage-prediction](./machine-learning/projects/insurance-coverage-prediction) | Predicting insurance coverage costs. |

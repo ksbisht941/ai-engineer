@@ -1,0 +1,29 @@
+Iterative Imputer – Quick Notes
+
+Definition:
+IterativeImputer fills missing values by predicting them using other features (like a regression model).
+
+Why use it:
+Uses feature relationships to produce more accurate imputations.
+
+Strategies:
+
+* Models each feature as a function of others
+* Iteratively updates missing values
+
+When to use:
+
+* When features are highly correlated
+* When accuracy is important
+* Suitable for complex datasets
+
+Example:
+Missing Salary predicted using Age and Experience
+→ Model predicts Salary = 58000
+
+Key points:
+
+* More accurate but slower
+* Can overfit if not used carefully
+* Works well on structured datasets
+* Advanced technique

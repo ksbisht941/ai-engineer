@@ -1,0 +1,30 @@
+KNN Imputer – Quick Notes
+
+Definition:
+KNNImputer fills missing values using the values of nearest neighbors (similar data points) based on distance.
+
+Why use it:
+Captures relationships between features instead of using simple averages.
+
+Strategies:
+
+* Finds K nearest neighbors
+* Uses mean of neighbors to fill missing values
+
+When to use:
+
+* When data has patterns or correlations
+* When better accuracy than mean/median is needed
+* Not ideal for very large datasets
+
+Example:
+Row: [Age=30, Salary=NaN]
+Neighbors Salary: [50000, 60000, 55000]
+→ Filled Salary = 55000 (average)
+
+Key points:
+
+* Better than SimpleImputer for structured data
+* Sensitive to feature scaling
+* Computationally expensive
+* Requires clean numeric data
