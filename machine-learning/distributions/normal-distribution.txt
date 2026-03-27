@@ -1,0 +1,68 @@
+Gaussian (Normal) Distribution – Quick Notes
+
+Definition:
+A Gaussian (Normal) Distribution is a **symmetric, bell-shaped probability distribution** where most values cluster around the mean.
+
+---
+
+Mathematical Expression:
+f(x) = (1 / (σ√(2π))) * e^{-(x − μ)² / (2σ²)}
+
+Where:
+
+* μ → mean (center)
+* σ → standard deviation (spread)
+
+---
+
+Key Properties:
+
+* Symmetrical around mean
+* Mean = Median = Mode
+* Bell-shaped curve
+* Defined by μ (location) and σ (spread)
+
+---
+
+Empirical Rule (68–95–99.7 Rule):
+
+* 68% data → within ±1σ
+* 95% data → within ±2σ
+* 99.7% data → within ±3σ
+
+---
+
+Why it matters:
+
+* Many ML models assume normality
+* Used in statistics, hypothesis testing, Z-score
+* Helps in outlier detection
+
+---
+
+When to use:
+
+* When data looks symmetric and bell-shaped
+* When applying statistical methods (Z-test, regression assumptions)
+
+---
+
+Example:
+Heights of people, exam scores → often follow normal distribution
+
+---
+
+Key points:
+
+* Central limit theorem → many real-world data approximate normal
+* Sensitive to outliers
+* If data is skewed → consider transformation (log, etc.)
+
+---
+
+Shortcut:
+
+* Bell-shaped
+* Center = mean
+* Spread = standard deviation
+* Most data near center

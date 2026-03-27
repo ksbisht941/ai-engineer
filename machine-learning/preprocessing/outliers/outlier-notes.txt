@@ -1,0 +1,111 @@
+Outlier Detection & Removal – Quick Notes
+
+Definition:
+Outliers are data points that **significantly differ** from the rest of the dataset and can negatively impact model performance.
+
+---
+
+1. Z-Score Method
+
+Definition:
+Measures how many standard deviations a data point is from the mean.
+
+Mathematical Expression:
+Z = (x − μ) / σ
+
+Where:
+
+* μ → mean
+* σ → standard deviation
+
+Rule:
+
+* |Z| > 3 → considered outlier
+
+When to use:
+
+* Data is **normally distributed (Gaussian)**
+
+Example:
+Z = 3.5 → outlier
+
+Key points:
+
+* Works well for normal distribution
+* Sensitive to extreme values
+* Not ideal for skewed data
+
+---
+
+2. IQR (Interquartile Range) Method
+
+Definition:
+Uses spread of middle 50% of data to detect outliers.
+
+Formula:
+IQR = Q3 − Q1
+
+Bounds:
+Lower = Q1 − 1.5 × IQR
+Upper = Q3 + 1.5 × IQR
+
+Rule:
+
+* Outside bounds → outlier
+
+When to use:
+
+* Data is **skewed**
+* More robust than Z-score
+
+Example:
+Q1 = 10, Q3 = 20 → IQR = 10
+Lower = -5, Upper = 35
+
+Key points:
+
+* Not affected much by outliers
+* Works for non-normal data
+* Widely used
+
+---
+
+3. Percentile Method
+
+Definition:
+Removes extreme values based on percentiles.
+
+Rule:
+
+* Keep data between certain percentiles
+  (e.g., 1% – 99% or 5% – 95%)
+
+When to use:
+
+* When you want **controlled trimming**
+* Large datasets
+
+Example:
+Remove values below 1st percentile and above 99th percentile
+
+Key points:
+
+* Simple and flexible
+* Can remove useful extreme values
+* Threshold selection is subjective
+
+---
+
+Removal Techniques:
+
+* Remove rows (drop outliers)
+* Cap values (winsorization)
+* Transform data (log, scaling)
+
+---
+
+Shortcut:
+
+* Z-score → normal data
+* IQR → skewed data (default choice)
+* Percentile → large data, controlled trimming
