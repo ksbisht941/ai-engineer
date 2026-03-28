@@ -24,9 +24,26 @@ Example:
 Age: [25, 30, NaN, 35]
 → median = 30 → missing value becomes 30
 
+Advantages:
+
+* Simple and fast to implement
+* Works well as a baseline
+* Easy to interpret
+* Handles both numeric and categorical data
+* Integrates easily with ML pipelines
+
+Disadvantages:
+
+* Ignores relationships between features
+* Can introduce bias in data
+* Reduces data variability (especially mean/median)
+* Not suitable for complex datasets
+* Less accurate compared to KNN or Iterative imputation
+
 Key points:
 
 * Apply before model training
 * Handle numeric and categorical columns separately
 * Common step in ML pipelines
 * Prevents errors due to missing values
+* Baseline method, not the most optimal
