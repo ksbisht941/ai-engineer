@@ -63,26 +63,141 @@ The project is organized into the following modules:
   | [t-test.ipynb](./statistics/t-test.ipynb) | T-Test implementation. |
   | [z-test.ipynb](./statistics/z-test.ipynb) | Z-Test implementation. |
 
-- **[machine-learning](./machine-learning)**: Practical machine learning modules covering algorithms, feature engineering, and end-to-end projects.
+- **[machine-learning](./machine-learning)**: Practical machine learning modules covering supervised, unsupervised, reinforcement learning, preprocessing, and end-to-end projects.
 
-  | Module | Notebook / Resource | Description |
+  **Supervised — Regression**
+
+  | Notebook | Description |
+  | :--- | :--- |
+  | [simple-linear-regression.ipynb](./machine-learning/models/supervised/regression/simple-linear-regression.ipynb) | Simple Linear Regression from scratch. |
+  | [multiple-linear-regression.ipynb](./machine-learning/models/supervised/regression/) | Multiple Linear Regression. |
+  | [ridge-regression.ipynb](./machine-learning/models/supervised/regression/ridge-regression.ipynb) | L2 regularization with Ridge Regression. |
+  | [lasso-regression.ipynb](./machine-learning/models/supervised/regression/lasso-regression.ipynb) | L1 regularization with Lasso Regression. |
+  | [elastic-net.ipynb](./machine-learning/models/supervised/regression/elastic-net.ipynb) | Combined L1+L2 regularization. |
+  | [svr.ipynb](./machine-learning/models/supervised/regression/svr.ipynb) | Support Vector Regression. |
+
+  **Supervised — Classification**
+
+  | Notebook | Description |
+  | :--- | :--- |
+  | [logistic-regression.ipynb](./machine-learning/models/supervised/classification/logistic-regression.ipynb) | Logistic Regression classifier. |
+  | [decision-tree.ipynb](./machine-learning/models/supervised/classification/decision-tree.ipynb) | Decision Tree classifier. |
+  | [knn.ipynb](./machine-learning/models/supervised/classification/knn.ipynb) | K-Nearest Neighbors classifier. |
+  | [naive-bayes.ipynb](./machine-learning/models/supervised/classification/naive-bayes.ipynb) | Naive Bayes classifier. |
+  | [random-forest.ipynb](./machine-learning/models/supervised/classification/random-forest.ipynb) | Random Forest classifier. |
+  | [svm.ipynb](./machine-learning/models/supervised/classification/svm.ipynb) | Support Vector Machine classifier. |
+  | [mlp-classifier.ipynb](./machine-learning/models/supervised/classification/mlp-classifier.ipynb) | Multi-layer Perceptron classifier. |
+
+  **Unsupervised**
+
+  | Notebook | Description |
+  | :--- | :--- |
+  | [kmeans.ipynb](./machine-learning/models/unsupervised/clustering/kmeans.ipynb) | K-Means clustering. |
+  | [dbscan.ipynb](./machine-learning/models/unsupervised/clustering/dbscan.ipynb) | Density-based spatial clustering. |
+  | [gmm.ipynb](./machine-learning/models/unsupervised/clustering/gmm.ipynb) | Gaussian Mixture Model clustering. |
+  | [hierarchical.ipynb](./machine-learning/models/unsupervised/clustering/hierarchical.ipynb) | Hierarchical/agglomerative clustering. |
+  | [pca.ipynb](./machine-learning/models/unsupervised/dimensionality-reduction/pca.ipynb) | Principal Component Analysis. |
+  | [tsne.ipynb](./machine-learning/models/unsupervised/dimensionality-reduction/tsne.ipynb) | t-SNE dimensionality reduction. |
+  | [umap.ipynb](./machine-learning/models/unsupervised/dimensionality-reduction/umap.ipynb) | UMAP dimensionality reduction. |
+  | [isolation-forest.ipynb](./machine-learning/models/unsupervised/anomaly-detection/isolation-forest.ipynb) | Isolation Forest anomaly detection. |
+  | [one-class-svm.ipynb](./machine-learning/models/unsupervised/anomaly-detection/one-class-svm.ipynb) | One-Class SVM anomaly detection. |
+
+  **Semi-Supervised**
+
+  | Notebook | Description |
+  | :--- | :--- |
+  | [self-training.ipynb](./machine-learning/models/semi-supervised/self-training.ipynb) | Self-training with labeled + unlabeled data. |
+  | [label-propagation.ipynb](./machine-learning/models/semi-supervised/label-propagation.ipynb) | Graph-based label propagation. |
+  | [label-spreading.ipynb](./machine-learning/models/semi-supervised/label-spreading.ipynb) | Regularized label spreading algorithm. |
+
+  **Ensemble Methods**
+
+  | Notebook | Description |
+  | :--- | :--- |
+  | [bagging.ipynb](./machine-learning/models/ensemble/bagging.ipynb) | Bagging ensemble method. |
+  | [boosting](./machine-learning/models/ensemble/boosting/) | Boosting ensemble methods (AdaBoost, Gradient Boosting, XGBoost). |
+  | [stacking.ipynb](./machine-learning/models/ensemble/stacking.ipynb) | Stacking ensemble method. |
+  | [voting.ipynb](./machine-learning/models/ensemble/voting.ipynb) | Voting ensemble method. |
+
+  **Deep Learning Models**
+
+  | Notebook | Description |
+  | :--- | :--- |
+  | [ann.ipynb](./machine-learning/models/deep-learning/ann.ipynb) | Artificial Neural Network. |
+  | [cnn.ipynb](./machine-learning/models/deep-learning/cnn.ipynb) | Convolutional Neural Network. |
+  | [rnn.ipynb](./machine-learning/models/deep-learning/rnn.ipynb) | Recurrent Neural Network. |
+  | [lstm.ipynb](./machine-learning/models/deep-learning/lstm.ipynb) | Long Short-Term Memory network. |
+  | [gru.ipynb](./machine-learning/models/deep-learning/gru.ipynb) | Gated Recurrent Unit. |
+  | [transformers.ipynb](./machine-learning/models/deep-learning/transformers.ipynb) | Transformer architecture. |
+
+  **Reinforcement Learning**
+
+  | Notebook | Description |
+  | :--- | :--- |
+  | [q-learning.ipynb](./machine-learning/models/reinforcement-learning/q-learning.ipynb) | Q-Learning algorithm. |
+  | [sarsa.ipynb](./machine-learning/models/reinforcement-learning/sarsa.ipynb) | SARSA on-policy TD control. |
+  | [dqn.ipynb](./machine-learning/models/reinforcement-learning/dqn.ipynb) | Deep Q-Network. |
+  | [policy-gradient.ipynb](./machine-learning/models/reinforcement-learning/policy-gradient.ipynb) | Policy Gradient methods. |
+  | [actor-critic.ipynb](./machine-learning/models/reinforcement-learning/actor-critic.ipynb) | Actor-Critic architecture. |
+
+  **Preprocessing**
+
+  | Module | Notebook | Description |
   | :--- | :--- | :--- |
-  | **Models** | [linear-regression.ipynb](./machine-learning/models/linear-regression.ipynb) | Implementation of Linear Regression. |
-  |                | [logistic-regression.ipynb](./machine-learning/models/logistic-regression.ipynb) | Implementation of Logistic Regression. |
-  | **Feature Scaling** | [standard-scaler.ipynb](./machine-learning/feature-engineering/scalers/standard-scaler.ipynb) | Data standardization using scikit-learn's `StandardScaler`. |
-  |                     | [min-max-scaler.ipynb](./machine-learning/feature-engineering/scalers/min-max-scaler.ipynb) | Data normalization using scikit-learn's `MinMaxScaler`. |
-  |                     | [scaling-notes.txt](./machine-learning/feature-engineering/scalers/scaling-notes.txt) | Key concepts and importance of feature scaling. |
-  | **Feature Encoding** | [ordinal-encoder.ipynb](./machine-learning/feature-engineering/encoders/ordinal-encoder.ipynb) | Categorical encoding with `OrdinalEncoder`. |
-  |                     | [one-hot-encoder.ipynb](./machine-learning/feature-engineering/encoders/one-hot-encoder.ipynb) | Categorical encoding with `OneHotEncoder`. |
-  |                     | [label-encoder.ipynb](./machine-learning/feature-engineering/encoders/label-encoder.ipynb) | Categorical encoding with `LabelEncoder`. |
-  | **Imputation**      | [simple-imputer.ipynb](./machine-learning/feature-engineering/imputer/simple-imputer.ipynb) | Handling missing data using `SimpleImputer`. |
-  |                     | [knn-imputer.ipynb](./machine-learning/feature-engineering/imputer/knn-imputer.ipynb) | Advanced imputation using `KNNImputer`. |
-  |                     | [imputer-notes](./machine-learning/feature-engineering/imputer/) | Detailed notes on simple, KNN, and iterative imputation. |
-  | **Transformation**  | [transformation](./machine-learning/feature-engineering/transformation/) | Placeholder for data transformation techniques. |
-  | **Projects** | [ford-car-price-prediction](./machine-learning/projects/ford-car-price-prediction) | Predicting car prices based on features. |
-  |              | [heart-disease-prediction](./machine-learning/projects/heart-disease-prediction) | Classification of heart disease risk. |
-  |              | [insurance-coverage-prediction](./machine-learning/projects/insurance-coverage-prediction) | Predicting insurance coverage costs. |
+  | **Scaling** | [standard-scaler.ipynb](./machine-learning/preprocessing/scaling/standard-scaler.ipynb) | Standardization using `StandardScaler`. |
+  |             | [min-max-scaler.ipynb](./machine-learning/preprocessing/scaling/min-max-scaler.ipynb) | Normalization using `MinMaxScaler`. |
+  |             | [robust-scaler.ipynb](./machine-learning/preprocessing/scaling/robust-scaler.ipynb) | Outlier-robust scaling using `RobustScaler`. |
+  | **Encoding** | [label-encoding.ipynb](./machine-learning/preprocessing/encoding/label-encoding.ipynb) | Label Encoding for ordinal categories. |
+  |              | [one-hot-encoding.ipynb](./machine-learning/preprocessing/encoding/one-hot-encoding.ipynb) | One-Hot Encoding for nominal categories. |
+  |              | [ordinal-encoding.ipynb](./machine-learning/preprocessing/encoding/ordinal-encoding.ipynb) | Ordinal Encoding with custom order. |
+  |              | [target-encoding.ipynb](./machine-learning/preprocessing/encoding/target-encoding.ipynb) | Target/Mean Encoding. |
+  | **Missing Values** | [simple-imputer.ipynb](./machine-learning/preprocessing/missing-values/simple-imputer.ipynb) | Imputation with mean/median/mode. |
+  |                    | [knn-imputer.ipynb](./machine-learning/preprocessing/missing-values/knn-imputer.ipynb) | KNN-based imputation. |
+  | **Transformation** | [log-transform.ipynb](./machine-learning/preprocessing/transformation/log-transform.ipynb) | Log transformation for skewed data. |
+  |                    | [power-transform.ipynb](./machine-learning/preprocessing/transformation/power-transform.ipynb) | Box-Cox and Yeo-Johnson transforms. |
+  |                    | [binning.ipynb](./machine-learning/preprocessing/transformation/binning.ipynb) | Discretization and binning. |
+  | **Feature Creation** | [date-features.ipynb](./machine-learning/preprocessing/feature-creation/date-features.ipynb) | Extracting date/time features. |
+  |                      | [interaction-features.ipynb](./machine-learning/preprocessing/feature-creation/interaction-features.ipynb) | Creating interaction features. |
+  |                      | [domain-features.ipynb](./machine-learning/preprocessing/feature-creation/domain-features.ipynb) | Domain-specific feature engineering. |
+  | **Feature Selection** | [correlation.ipynb](./machine-learning/preprocessing/feature-selection/correlation.ipynb) | Correlation-based feature selection. |
+  |                       | [chi-square.ipynb](./machine-learning/preprocessing/feature-selection/chi-square.ipynb) | Chi-Square statistical feature selection. |
+  |                       | [feature-importance.ipynb](./machine-learning/preprocessing/feature-selection/feature-importance.ipynb) | Tree-based feature importance. |
+  |                       | [rfe.ipynb](./machine-learning/preprocessing/feature-selection/rfe.ipynb) | Recursive Feature Elimination. |
+  | **Pipelines** | [sklearn-pipeline.ipynb](./machine-learning/preprocessing/pipelines/sklearn-pipeline.ipynb) | Building scikit-learn Pipelines. |
+  |               | [end-to-end-preprocessing.ipynb](./machine-learning/preprocessing/pipelines/end-to-end-preprocessing.ipynb) | Full preprocessing pipeline. |
 
+  **Data Ingestion & Vision**
+
+  | Notebook | Description |
+  | :--- | :--- |
+  | [rest-api.ipynb](./machine-learning/data-ingestion/rest-api.ipynb) | Fetching data from REST APIs for ML pipelines. |
+  | [cnn.ipynb](./machine-learning/vision/cnn.ipynb) | CNN-based image classification workflow. |
+
+  **Projects**
+
+  | Project | Description |
+  | :--- | :--- |
+  | [ford-car-price-prediction](./machine-learning/projects/ford-car-price-prediction) | Predicting car prices based on features. |
+  | [heart-disease-prediction](./machine-learning/projects/heart-disease-prediction) | Classification of heart disease risk. |
+  | [insurance-coverage-prediction](./machine-learning/projects/insurance-coverage-prediction) | Predicting insurance coverage costs. |
+
+
+- **[deep-learning](./deep-learning)**: Deep learning modules covering Convolutional Neural Networks and related techniques.
+
+  | Module | Notebook | Description |
+  | :--- | :--- | :--- |
+  | **CNN** | [keras-padding.ipynb](./deep-learning/cnn/keras-padding.ipynb) | Exploring `valid` vs `same` padding in Conv2D layers on MNIST. |
+  |         | [keras-pooling.ipynb](./deep-learning/cnn/keras-pooling.ipynb) | Pooling strategies (Max, Average) for spatial downsampling. |
+  |         | [keras-strides.ipynb](./deep-learning/cnn/keras-strides.ipynb) | Effect of strides on feature map dimensions. |
+  | **Projects** | [cat-vs-dog.ipynb](./deep-learning/cnn/projects/cat-vs-dog/cat-vs-dog.ipynb) | Binary image classification using CNN. |
+  |              | [object-detection.ipynb](./deep-learning/cnn/projects/object-detection-yolo/object-detection.ipynb) | Object detection using YOLO. |
+
+- **[scikit-learn](./scikit-learn)**: Scikit-learn estimator and transformer patterns.
+
+  | Notebook | Description |
+  | :--- | :--- |
+  | [estimator.ipynb](./scikit-learn/estimator.ipynb) | Building and using scikit-learn estimators. |
+  | [transformers.ipynb](./scikit-learn/transformers.ipynb) | Building and using scikit-learn transformers. |
 
 - **[nlp](./nlp)**: Comprehensive NLP modules covering text processing and analysis.
 
