@@ -4,5 +4,6 @@ langchain
 langchain-core
 langchain-mistralai
 langchain-community
+langsmith
 openai
 tiktoken

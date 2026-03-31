@@ -1,3 +1,6 @@
+from dotenv import load_dotenv
+load_dotenv()  # must run before any LangChain import so LangSmith env vars are picked up
+
 from fastapi import FastAPI
 from pydantic import BaseModel
 
