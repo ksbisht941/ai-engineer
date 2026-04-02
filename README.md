@@ -171,6 +171,7 @@ The project is organized into the following modules:
   | Notebook | Description |
   | :--- | :--- |
   | [rest-api.ipynb](./machine-learning/data-ingestion/rest-api.ipynb) | Fetching data from REST APIs for ML pipelines. |
+  | [graphql.ipynb](./machine-learning/data-ingestion/graphql.ipynb) | Fetching data from GraphQL APIs for ML pipelines. |
   | [cnn.ipynb](./machine-learning/vision/cnn.ipynb) | CNN-based image classification workflow. |
 
   **Projects**
@@ -189,8 +190,9 @@ The project is organized into the following modules:
   | **CNN** | [keras-padding.ipynb](./deep-learning/cnn/keras-padding.ipynb) | Exploring `valid` vs `same` padding in Conv2D layers on MNIST. |
   |         | [keras-pooling.ipynb](./deep-learning/cnn/keras-pooling.ipynb) | Pooling strategies (Max, Average) for spatial downsampling. |
   |         | [keras-strides.ipynb](./deep-learning/cnn/keras-strides.ipynb) | Effect of strides on feature map dimensions. |
-  | **Projects** | [cat-vs-dog.ipynb](./deep-learning/cnn/projects/cat-vs-dog/cat-vs-dog.ipynb) | Binary image classification using CNN. |
-  |              | [object-detection.ipynb](./deep-learning/cnn/projects/object-detection-yolo/object-detection.ipynb) | Object detection using YOLO. |
+  | **ANN Projects** | [credit-card-customer-churn-prediction.ipynb](./deep-learning/ann/projects/credit-card-customer-churn-prediction/credit-card-customer-churn-prediction.ipynb) | Customer churn prediction using ANN. |
+  | **CNN Projects** | [cat-vs-dog.ipynb](./deep-learning/cnn/projects/cat-vs-dog/cat-vs-dog.ipynb) | Binary image classification using CNN. |
+  |                  | [object-detection.ipynb](./deep-learning/cnn/projects/object-detection-yolo/object-detection.ipynb) | Object detection using YOLO. |
 
 - **[scikit-learn](./scikit-learn)**: Scikit-learn estimator and transformer patterns.
 
@@ -222,32 +224,33 @@ The project is organized into the following modules:
 
   *Resources: [input_img](./opencv/input_img), [output_img](./opencv/output_img), [output_video](./opencv/output_video).*
 
-- **[langchain](./langchain)**: A comprehensive collection of Generative AI modules and projects.
+- **[lang-chain](./lang-chain)**: A comprehensive collection of Generative AI modules and projects.
 
   | Category | Module / Project | Description |
   | :--- | :--- | :--- |
-  | **Core** | [chat_models](./langchain/chat_models) | Various LLM chat implementations (OpenAI, HuggingFace, Local). |
-  |          | [embedding_models](./langchain/embedding_models) | Vector embedding generation and management. |
-  |          | [document_loader](./langchain/document_loader) | Loaders for PDF, Text, and Web content. |
-  |          | [retrievers](./langchain/retrievers) | Advanced retrieval techniques (Arxiv, MMR, Multi-query). |
-  |          | [text_splitter](./langchain/text_splitter) | Document chunking strategies. |
-  |          | [tools](./langchain/tools) | Custom tool definitions for agentic workflows. |
-  |          | [runnable](./langchain/runnable) | LangChain Expression Language (LCEL) and runnable components. |
-  |          | [vector_store](./langchain/vector_store) | Vector database integration. |
-  | **Projects** | [cine-sage](./langchain/projects/cine-sage) | Structured movie metadata extraction. |
-  |              | [chatbot](./langchain/projects/chatbot) | FastAPI-based chatbot with vector database and streaming API. |
+  | **Core** | [chat_models](./lang-chain/chat_models) | Various LLM chat implementations (OpenAI, HuggingFace, Local). |
+  |          | [embedding_models](./lang-chain/embedding_models) | Vector embedding generation and management. |
+  |          | [document_loader](./lang-chain/document_loader) | Loaders for PDF, Text, and Web content. |
+  |          | [retrievers](./lang-chain/retrievers) | Advanced retrieval techniques (Arxiv, MMR, Multi-query). |
+  |          | [text_splitter](./lang-chain/text_splitter) | Document chunking strategies. |
+  |          | [tools](./lang-chain/tools) | Custom tool definitions for agentic workflows. |
+  |          | [runnable](./lang-chain/runnable) | LangChain Expression Language (LCEL) and runnable components. |
+  |          | [vector_store](./lang-chain/vector_store) | Vector database integration. |
+  | **Projects** | [cine-sage](./lang-chain/projects/cine-sage) | Structured movie metadata extraction. |
+  |              | [chatbot](./lang-chain/projects/chatbot) | FastAPI-based chatbot with vector database and streaming API. |
+  |              | [session-based-chatbot](./lang-chain/projects/session-based-chatbot) | Session-aware chatbot with memory management. |
 
-- **[langgraph](./langgraph)**: Interactive agentic workflows using LangGraph.
+- **[lang-graph](./lang-graph)**: Interactive agentic workflows using LangGraph.
 
   | Notebook | Description |
   | :--- | :--- |
-  | [1_bmi_workflow.ipynb](./langgraph/1_bmi_workflow.ipynb) | BMI calculation workflow using StateGraph. |
-  | [2_simple_llm_workflow.ipynb](./langgraph/2_simple_llm_workflow.ipynb) | Basic LLM reasoning and response generation. |
-  | [3_prompt_chaining.ipynb](./langgraph/3_prompt_chaining.ipynb) | Advanced prompt chaining techniques for complex tasks. |
-  | [4_batsman_workflow.ipynb](./langgraph/4_batsman_workflow.ipynb) | Specialized sports data (cricket) analysis workflow. |
-  | [5_UPSC_essay_workflow.ipynb](./langgraph/5_UPSC_essay_workflow.ipynb) | Iterative essay planning and writing for UPSC. |
-  | [6_quadratic_equation_workflow.ipynb](./langgraph/6_quadratic_equation_workflow.ipynb) | Multi-step mathematical problem solving. |
-  | [7_review_reply_workflow.ipynb](./langgraph/7_review_reply_workflow.ipynb) | Automated customer review response generation. |
+  | [1_bmi_workflow.ipynb](./lang-graph/1_bmi_workflow.ipynb) | BMI calculation workflow using StateGraph. |
+  | [2_simple_llm_workflow.ipynb](./lang-graph/2_simple_llm_workflow.ipynb) | Basic LLM reasoning and response generation. |
+  | [3_prompt_chaining.ipynb](./lang-graph/3_prompt_chaining.ipynb) | Advanced prompt chaining techniques for complex tasks. |
+  | [4_batsman_workflow.ipynb](./lang-graph/4_batsman_workflow.ipynb) | Specialized sports data (cricket) analysis workflow. |
+  | [5_UPSC_essay_workflow.ipynb](./lang-graph/5_UPSC_essay_workflow.ipynb) | Iterative essay planning and writing for UPSC. |
+  | [6_quadratic_equation_workflow.ipynb](./lang-graph/6_quadratic_equation_workflow.ipynb) | Multi-step mathematical problem solving. |
+  | [7_review_reply_workflow.ipynb](./lang-graph/7_review_reply_workflow.ipynb) | Automated customer review response generation. |
 
 
 - **[fastapi](./fastapi)**: Production-grade web applications using FastAPI.
@@ -313,4 +316,4 @@ Required libraries include:
   - `seaborn`
   - `scikit-learn`
   - `nltk` / `spacy` (for NLP)
-  - `google-generativeai` / `langchain` (for Gen-AI)
+  - `google-generativeai` / `langchain` / `langgraph` (for Gen-AI)
