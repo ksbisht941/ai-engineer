@@ -240,17 +240,28 @@ The project is organized into the following modules:
   |              | [chatbot](./lang-chain/projects/chatbot) | FastAPI-based chatbot with vector database and streaming API. |
   |              | [session-based-chatbot](./lang-chain/projects/session-based-chatbot) | Session-aware chatbot with memory management. |
 
-- **[lang-graph](./lang-graph)**: Interactive agentic workflows using LangGraph.
+- **[lang-graph](./lang-graph)**: Interactive agentic workflows and chatbots using LangGraph.
+
+  **Workflows**
 
   | Notebook | Description |
   | :--- | :--- |
-  | [1_bmi_workflow.ipynb](./lang-graph/1_bmi_workflow.ipynb) | BMI calculation workflow using StateGraph. |
-  | [2_simple_llm_workflow.ipynb](./lang-graph/2_simple_llm_workflow.ipynb) | Basic LLM reasoning and response generation. |
-  | [3_prompt_chaining.ipynb](./lang-graph/3_prompt_chaining.ipynb) | Advanced prompt chaining techniques for complex tasks. |
-  | [4_batsman_workflow.ipynb](./lang-graph/4_batsman_workflow.ipynb) | Specialized sports data (cricket) analysis workflow. |
-  | [5_UPSC_essay_workflow.ipynb](./lang-graph/5_UPSC_essay_workflow.ipynb) | Iterative essay planning and writing for UPSC. |
-  | [6_quadratic_equation_workflow.ipynb](./lang-graph/6_quadratic_equation_workflow.ipynb) | Multi-step mathematical problem solving. |
-  | [7_review_reply_workflow.ipynb](./lang-graph/7_review_reply_workflow.ipynb) | Automated customer review response generation. |
+  | [state_graph_basics.ipynb](./lang-graph/workflows/1_state_graph_basics.ipynb) | StateGraph fundamentals and node/edge setup. |
+  | [llm_node_integration.ipynb](./lang-graph/workflows/2_llm_node_integration.ipynb) | Integrating LLM nodes into a graph workflow. |
+  | [prompt_chaining.ipynb](./lang-graph/workflows/3_prompt_chaining.ipynb) | Advanced prompt chaining techniques for complex tasks. |
+  | [parallel_nodes.ipynb](./lang-graph/workflows/4_parallel_nodes.ipynb) | Running multiple nodes in parallel within a graph. |
+  | [structured_output.ipynb](./lang-graph/workflows/5_structured_output.ipynb) | Extracting structured outputs from LLM nodes. |
+  | [conditional_edges.ipynb](./lang-graph/workflows/6_conditional_edges.ipynb) | Dynamic routing using conditional edges. |
+  | [review_reply_workflow.ipynb](./lang-graph/workflows/7_review_reply_workflow.ipynb) | Automated customer review response generation. |
+
+  **Chatbot**
+
+  | Notebook | Description |
+  | :--- | :--- |
+  | [basic_chatbot.ipynb](./lang-graph/chatbot/1_basic_chatbot.ipynb) | Basic chatbot implementation using LangGraph. |
+  | [chatbot_persistence.ipynb](./lang-graph/chatbot/2_chatbot_persistence.ipynb) | Chatbot with memory persistence across turns. |
+  | [chatbot_stream.ipynb](./lang-graph/chatbot/3_chatbot_stream.ipynb) | Streaming responses in a LangGraph chatbot. |
+  | [chatbot_tools.ipynb](./lang-graph/chatbot/4_chatbot_tools.ipynb) | Tool-augmented chatbot with agentic capabilities. |
 
 
 - **[fastapi](./fastapi)**: Production-grade web applications using FastAPI.
