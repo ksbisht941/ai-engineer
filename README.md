@@ -262,13 +262,21 @@ The project is organized into the following modules:
   | [chatbot_persistence.ipynb](./lang-graph/chatbot/2_chatbot_persistence.ipynb) | Chatbot with memory persistence across turns. |
   | [chatbot_stream.ipynb](./lang-graph/chatbot/3_chatbot_stream.ipynb) | Streaming responses in a LangGraph chatbot. |
   | [chatbot_tools.ipynb](./lang-graph/chatbot/4_chatbot_tools.ipynb) | Tool-augmented chatbot with agentic capabilities. |
+  | [chatbot_mcp.ipynb](./lang-graph/chatbot/5_chatbot_mcp.ipynb) | Chatbot using Model Context Protocol (MCP). |
+  | [chatbot_sqlite.ipynb](./lang-graph/chatbot/6_chatbot_sqlite.ipynb) | Chatbot with SQLite-based persistent memory. |
 
 
-- **[fastapi](./fastapi)**: Production-grade web applications using FastAPI.
+- **[fastapi](./fastapi)**: Production-grade FastAPI application with async database, migrations, and layered architecture.
 
   | Module | Description |
   | :--- | :--- |
-  | [backend-forge](./fastapi/backend-forge) | Modular FastAPI starter with async DB support, migrations, and config. |
+  | [app/main.py](./fastapi/app/main.py) | Application entry point. |
+  | [app/core/](./fastapi/app/core) | Env-based config (`pydantic-settings`) and async SQLAlchemy engine/session. |
+  | [app/models/](./fastapi/app/models) | SQLAlchemy database models. |
+  | [app/schemas/](./fastapi/app/schemas) | Pydantic validation schemas. |
+  | [app/crud/](./fastapi/app/crud) | Async CRUD operations. |
+  | [app/api/](./fastapi/app/api) | API router and endpoints. |
+  | [alembic/](./fastapi/alembic) | Database migration scripts. |
 
 - **[resources](./resources)**: Reference materials and books.
 
