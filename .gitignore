@@ -24,3 +24,5 @@ Thumbs.db
 chroma_database/
 *.db
 *.sqlite3
+*.db-shm
+*.db-wal
