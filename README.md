@@ -181,6 +181,7 @@ The project is organized into the following modules:
   | [ford-car-price-prediction](./machine-learning/projects/ford-car-price-prediction) | Predicting car prices based on features. |
   | [heart-disease-prediction](./machine-learning/projects/heart-disease-prediction) | Classification of heart disease risk. |
   | [insurance-coverage-prediction](./machine-learning/projects/insurance-coverage-prediction) | Predicting insurance coverage costs. |
+  | [document-validation](./machine-learning/projects/document-validation) | Computer-vision pipeline for portrait photo validation (glare detection, face crop, blur check, background removal). |
 
 
 - **[deep-learning](./deep-learning)**: Deep learning modules covering Convolutional Neural Networks and related techniques.
