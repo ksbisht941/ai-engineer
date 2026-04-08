@@ -42,3 +42,6 @@ chroma_database/
 # Datasets
 datasets/
 dataset/
+
+# Empty files (not yet implemented)
+empty/
