@@ -289,6 +289,17 @@ The project is organized into the following modules:
   | [app/api/](./fastapi/app/api) | API router and endpoints. |
   | [alembic/](./fastapi/alembic) | Database migration scripts. |
 
+- **[pydantic](./pydantic)**: Data validation and settings management using Pydantic v2.
+
+  | Notebook | Description |
+  | :--- | :--- |
+  | [basics.ipynb](./pydantic/basics.ipynb) | BaseModel, Field, Annotated, type constraints, and Optional fields. |
+  | [field_validators.ipynb](./pydantic/field_validators.ipynb) | Field-level validation with `@field_validator` (name transformation, age range). |
+  | [model_validators.ipynb](./pydantic/model_validators.ipynb) | Cross-field validation with `@model_validator` and nested models. |
+  | [computed_fields.ipynb](./pydantic/computed_fields.ipynb) | Derived fields using `@computed_field` and `@property` (BMI calculation). |
+  | [nested_models.ipynb](./pydantic/nested_models.ipynb) | Composing nested Pydantic models (ContactDetails, AddressDetails). |
+  | [serialization.ipynb](./pydantic/serialization.ipynb) | Serialization with `model_dump()` and `model_dump_json()` (include, exclude, exclude_unset). |
+
 - **[mlops](./mlops)**: MLOps workflows and pipeline orchestration.
 
   | Notebook | Description |
