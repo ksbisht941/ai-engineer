@@ -265,7 +265,17 @@ The project is organized into the following modules:
   | [chatbot_tools.ipynb](./lang-graph/chatbot/4_chatbot_tools.ipynb) | Tool-augmented chatbot with agentic capabilities. |
   | [chatbot_mcp.ipynb](./lang-graph/chatbot/5_chatbot_mcp.ipynb) | Chatbot using Model Context Protocol (MCP). |
   | [chatbot_sqlite.ipynb](./lang-graph/chatbot/6_chatbot_sqlite.ipynb) | Chatbot with SQLite-based persistent memory. |
+  | [chatbot_observability.ipynb](./lang-graph/chatbot/7_chatbot_observibility.ipynb) | Observability and tracing in LangGraph chatbots. |
+  | [chatbot_rag.ipynb](./lang-graph/chatbot/8_chatbot_rag.ipynb) | Retrieval-Augmented Generation (RAG) chatbot. |
+  | [chatbot_hitl.ipynb](./lang-graph/chatbot/9_chatbot_hitl.ipynb) | Human-in-the-loop (HITL) chatbot with approval steps. |
 
+
+- **[yolo](./yolo)**: Object detection and instance segmentation using YOLO models.
+
+  | Notebook | Description |
+  | :--- | :--- |
+  | [detection.ipynb](./yolo/detection.ipynb) | Object detection using YOLOv8. |
+  | [segmentation.ipynb](./yolo/segmentation.ipynb) | Instance segmentation using YOLOv8. |
 
 - **[fastapi](./fastapi)**: Production-grade FastAPI application with async database, migrations, and layered architecture.
 
@@ -279,23 +289,26 @@ The project is organized into the following modules:
   | [app/api/](./fastapi/app/api) | API router and endpoints. |
   | [alembic/](./fastapi/alembic) | Database migration scripts. |
 
-- **[resources](./resources)**: Reference materials and books.
+- **[mlops](./mlops)**: MLOps workflows and pipeline orchestration.
+
+  | Notebook | Description |
+  | :--- | :--- |
+  | [zen_pipeline.ipynb](./mlops/zenml/zen_pipeline.ipynb) | End-to-end ML pipeline orchestration using ZenML. |
+
+- **[resources](./resources)**: Reference materials and eBooks.
 
   | Resource | Description |
   | :--- | :--- |
-  | [Books & Guides](./resources) | PDF guides on Deep Learning, Large Language Models, and Machine Learning. |
-
-- **[roadmap](./roadmap)**: Career paths and learning roadmaps for AI engineering.
-
-  | Resource | Description |
-  | :--- | :--- |
-  | [Learning Roadmap](./roadmap) | Career paths and structured learning journeys for AI engineering. |
-
-- **[deep-agent](./deep-agent)**: Autonomous AI agents and deep learning research.
-
-  | Module | Description |
-  | :--- | :--- |
-  | [Deep Agent](./deep-agent) | Placeholder for autonomous AI agents and deep learning research. |
+  | [AI Engineering](./resources/eBooks/AI%20Engineering.pdf) | AI Engineering by Chip Huyen. |
+  | [Deep Learning](./resources/eBooks/Deep%20Learning%20by%20Ian%20Goodfellow%2C%20Yoshua%20Bengio%2C%20Aaron%20Courville.pdf) | Deep Learning by Goodfellow, Bengio & Courville. |
+  | [Hands-On ML (Scikit-Learn, Keras, TF)](./resources/eBooks/Hands-On%20Machine%20Learning%20with%20Scikit-Learn%2C%20Keras%2C%20and%20TensorFlow.pdf) | Hands-On Machine Learning by Aurélien Géron. |
+  | [Hands-On LLMs](./resources/eBooks/Hands-On%20Large%20Language%20Models.pdf) | Hands-On Large Language Models. |
+  | [LLM Engineers Handbook](./resources/eBooks/LLM%20Engineers%20Handbook.pdf) | LLM Engineers Handbook. |
+  | [Designing ML Systems](./resources/eBooks/Designing%20Machine%20Learning%20Systems.pdf) | Designing Machine Learning Systems by Chip Huyen. |
+  | [Generative Deep Learning](./resources/eBooks/Generative-Deep-Learning.pdf) | Generative Deep Learning by David Foster. |
+  | [NLP with Transformers](./resources/eBooks/NLP%20with%20Transformer%20models.pdf) | Natural Language Processing with Transformers. |
+  | [Mathematics for ML](./resources/eBooks/Mathematics%20for%20Machine%20Learning.pdf) | Mathematics for Machine Learning. |
+  | [And more...](./resources/eBooks) | 25 eBooks covering ML, DL, MLOps, and Generative AI. |
 
 ## Getting Started
 
