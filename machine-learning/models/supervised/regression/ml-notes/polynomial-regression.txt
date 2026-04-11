@@ -1,0 +1,15 @@
+Polynomial Regression
+
+Definition:
+Extends linear regression to model non-linear relationships using polynomial terms.
+
+Mathematical Expression:
+y = β0 + β1x + β2x² + β3x³ + ... + βnxⁿ + ε
+
+Use case:
+* When data shows curved relationship (not straight line)
+
+Key Points:
+* Still called "linear" because it's linear in coefficients (β)
+* Requires feature scaling
+* Can overfit if degree is too high

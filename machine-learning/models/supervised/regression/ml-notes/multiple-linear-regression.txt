@@ -1,0 +1,17 @@
+Multiple Linear Regression
+
+Definition:
+Models relationship between multiple features and target.
+
+Mathematical Expression:
+y = β0 + β1x1 + β2x2 + ... + βnxn + ε
+
+Matrix Form (Best fit):
+β = (XᵀX)⁻¹Xᵀy
+
+Where:
+* x1, x2, ..., xn → multiple features
+* β1, β2, ..., βn → coefficients
+
+Use case:
+* Predicting house price using area, rooms, location

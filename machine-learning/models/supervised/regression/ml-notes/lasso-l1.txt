@@ -1,0 +1,19 @@
+Lasso Regularization (L1)
+
+- definition:
+  Adds penalty equal to absolute value of coefficients.
+  Loss = MSE + λ * Σ |w|
+
+- why to use:
+  To shrink coefficients and perform automatic feature selection.
+
+- when to use:
+  When many features are irrelevant and need to be removed.
+
+- advantage:
+  Performs feature selection (some coefficients become zero)
+  Produces simpler, interpretable models
+
+- disadvantage:
+  Can be unstable when features are highly correlated
+  May drop important features

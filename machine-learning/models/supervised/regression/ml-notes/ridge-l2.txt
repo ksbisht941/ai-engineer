@@ -1,0 +1,20 @@
+Ridge Regularization (L2)
+
+- definition:
+  Adds penalty equal to square of coefficients to the loss function.
+  Loss = MSE + λ * Σ (w²)
+
+- why to use:
+  To reduce model complexity and prevent overfitting by shrinking coefficients.
+
+- when to use:
+  When all features are useful but need to be controlled (no feature removal).
+
+- advantage:
+  Reduces overfitting
+  Keeps all features (no zero coefficients)
+  Works well with multicollinearity
+
+- disadvantage:
+  Does not perform feature selection
+  Harder to interpret due to all features retained

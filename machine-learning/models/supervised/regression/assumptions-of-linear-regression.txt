@@ -1,7 +1,0 @@
-Assumptions of Linear Regression
-
-- Linear Relationship between input and output
-- No Multicollinearity
-- Normality of Residual
-- Homoscedasticity
-- No Auto Correlation of Errors

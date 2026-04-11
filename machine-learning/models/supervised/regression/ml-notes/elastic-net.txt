@@ -1,0 +1,19 @@
+Elastic Net
+
+- definition:
+  Combines L1 and L2 penalties.
+  Loss = MSE + λ1 * Σ |w| + λ2 * Σ (w²)
+
+- why to use:
+  To balance feature selection (L1) and stability (L2).
+
+- when to use:
+  When dealing with many correlated features.
+
+- advantage:
+  Handles multicollinearity better than Lasso
+  Performs feature selection while maintaining stability
+
+- disadvantage:
+  Requires tuning two parameters (λ1, λ2)
+  More complex than Ridge or Lasso

@@ -1,0 +1,19 @@
+RMSE (Root Mean Squared Error)
+
+- definition:
+  Square root of MSE.
+  RMSE = sqrt(MSE)
+
+- why to use:
+  To get error in same unit as target while still penalizing large errors.
+
+- when to use:
+  When you want interpretability + sensitivity to large errors.
+
+- advantage:
+  Same unit as target variable
+  Penalizes large errors
+
+- disadvantage:
+  Still sensitive to outliers
+  Slightly harder to compute than MAE

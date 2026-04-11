@@ -1,0 +1,19 @@
+MAE (Mean Absolute Error)
+
+- definition:
+  Average of absolute differences between actual and predicted values.
+  MAE = (1/n) * Σ |y_true - y_pred|
+
+- why to use:
+  To measure average magnitude of errors in a simple, interpretable way.
+
+- when to use:
+  When all errors should be treated equally (no extra penalty for large errors).
+
+- advantage:
+  Easy to understand (same units as target)
+  Not sensitive to outliers
+
+- disadvantage:
+  Does not penalize large errors strongly
+  Less useful when big mistakes are critical

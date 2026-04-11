@@ -1,0 +1,16 @@
+Assumptions of Linear Regression
+
+1. Linear Relationship
+   Input features and target must have a linear relationship.
+
+2. No Multicollinearity
+   Independent features should not be highly correlated with each other.
+
+3. Normality of Residuals
+   Residuals (errors) should be normally distributed.
+
+4. Homoscedasticity
+   Variance of residuals should be constant across all predicted values.
+
+5. No Autocorrelation of Errors
+   Residuals should be independent of each other (no pattern over time/order).

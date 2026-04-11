@@ -1,0 +1,41 @@
+R² Score (Coefficient of Determination)
+
+- definition:
+  Measures proportion of variance explained by the model.
+  R² = 1 - (SS_res / SS_tot)
+
+- why to use:
+  To understand how well the model explains data variability.
+
+- when to use:
+  When comparing models on same dataset or evaluating fit quality.
+
+- advantage:
+  Scale-independent
+  Easy to interpret (closer to 1 is better)
+
+- disadvantage:
+  Can be misleading with non-linear models
+  Does not indicate prediction error magnitude
+  Can increase with irrelevant features
+
+
+Adjusted R² Score
+
+- definition:
+  Modified R² that penalizes adding unnecessary features.
+  Adjusted R² = 1 - [(1 - R²)(n - 1)/(n - p - 1)]
+
+- why to use:
+  To evaluate models with different numbers of features fairly.
+
+- when to use:
+  In multiple regression when feature count varies.
+
+- advantage:
+  Penalizes overfitting
+  Better for model comparison than R²
+
+- disadvantage:
+  Still not a direct error metric
+  Harder to interpret than R²

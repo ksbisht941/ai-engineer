@@ -1,0 +1,47 @@
+Simple Linear Regression
+
+Definition:
+Models relationship between one feature and target.
+
+Mathematical Expression:
+y = β0 + β1x + ε
+
+Best Fit Line (Closed-form solution):
+β1 = Σ(xi − x̄)(yi − ȳ) / Σ(xi − x̄)²
+β0 = ȳ − β1x̄
+
+Where:
+* y  → target variable
+* x  → feature
+* β0 → intercept
+* β1 → slope (coefficient)
+* ε  → error term
+* x̄  → mean of x
+* ȳ  → mean of y
+
+Use case:
+* Predicting salary based on experience
+
+---
+
+Example:
+
+Dataset:
+x → [1, 2, 3]
+y → [2, 4, 5]
+
+Step 1: Mean
+x̄ = 2
+ȳ = 3.67
+
+Step 2: Compute β1
+β1 = 1.5
+
+Step 3: Compute β0
+β0 = 0.67
+
+Final Model:
+y = 0.67 + 1.5x
+
+Prediction:
+x = 4 → y = 6.67

@@ -1,0 +1,19 @@
+MSE (Mean Squared Error)
+
+- definition:
+  Average of squared differences between actual and predicted values.
+  MSE = (1/n) * Σ (y_true - y_pred)^2
+
+- why to use:
+  To heavily penalize large errors and make model sensitive to outliers.
+
+- when to use:
+  When large errors are very costly and should be minimized strongly.
+
+- advantage:
+  Strong penalty for large errors
+  Smooth and differentiable (good for optimization)
+
+- disadvantage:
+  Sensitive to outliers
+  Units are squared (harder to interpret)
