@@ -68,9 +68,14 @@ The project is organized into the following modules:
 
   | Notebook | Description |
   | :--- | :--- |
-  | [simple-linear-regression.ipynb](./machine-learning/models/supervised/regression/simple-linear-regression.ipynb) | Simple Linear Regression from scratch. |
-  | [multiple-linear-regression.ipynb](./machine-learning/models/supervised/regression/multiple-linear-regression.ipynb) | Multiple Linear Regression. |
-  | [linear-regression-assumptions.ipynb](./machine-learning/models/supervised/regression/linear-regression-assumptions.ipynb) | Verifying assumptions of Linear Regression. |
+  | [linear-regression-1.ipynb](./machine-learning/models/supervised/regression/notebooks/linear-regression-1.ipynb) | Linear Regression implementation from scratch (Part 1). |
+  | [linear-regression-2.ipynb](./machine-learning/models/supervised/regression/notebooks/linear-regression-2.ipynb) | Linear Regression implementation from scratch (Part 2). |
+  | [simple-linear-regression.ipynb](./machine-learning/models/supervised/regression/notebooks/simple-linear-regression.ipynb) | Simple Linear Regression from scratch. |
+  | [multiple-linear-regression.ipynb](./machine-learning/models/supervised/regression/notebooks/multiple-linear-regression.ipynb) | Multiple Linear Regression. |
+  | [linear-regression-assumptions.ipynb](./machine-learning/models/supervised/regression/notebooks/linear-regression-assumptions.ipynb) | Verifying assumptions of Linear Regression. |
+  | [regression-metrics.ipynb](./machine-learning/models/supervised/regression/notebooks/regression-metrics.ipynb) | Evaluation metrics: MAE, MSE, RMSE, and R² score. |
+  | [batch-gradient-descent.ipynb](./machine-learning/models/supervised/regression/notebooks/batch-gradient-descent.ipynb) | Batch Gradient Descent — math derivation and implementation. |
+  | [stochastic-gradient-descent.ipynb](./machine-learning/models/supervised/regression/notebooks/stochastic-gradient-descent.ipynb) | Stochastic Gradient Descent — math derivation and implementation. |
 
   **Notes** (`ml-notes/`): simple-linear-regression, multiple-linear-regression, polynomial-regression, assumptions, mae, mse, rmse, r2-score, ridge-l2, lasso-l1, elastic-net.
 
@@ -93,7 +98,7 @@ The project is organized into the following modules:
   | **Missing Values** | [simple-imputer.ipynb](./machine-learning/preprocessing/missing-values/simple-imputer.ipynb) | Imputation with mean/median/mode. |
   |                    | [knn-imputer.ipynb](./machine-learning/preprocessing/missing-values/knn-imputer.ipynb) | KNN-based imputation. |
 
-  **Data Ingestion & Vision**
+  **Data Ingestion**
 
   | Notebook | Description |
   | :--- | :--- |
@@ -101,7 +106,6 @@ The project is organized into the following modules:
   | [working-with-json.ipynb](./machine-learning/data-ingestion/working-with-json.ipynb) | Loading and parsing JSON data into DataFrames. |
   | [working-with-rest-api.ipynb](./machine-learning/data-ingestion/working-with-rest-api.ipynb) | Fetching data from REST APIs for ML pipelines. |
   | [working-with-sql.ipynb](./machine-learning/data-ingestion/working-with-sql.ipynb) | Querying SQL databases and loading results into pandas. |
-  | [cnn.ipynb](./machine-learning/vision/cnn.ipynb) | CNN-based image classification workflow. |
 
   **Projects**
 
@@ -123,6 +127,7 @@ The project is organized into the following modules:
   |         | [keras-strides.ipynb](./deep-learning/cnn/keras-strides.ipynb) | Effect of strides on feature map dimensions. |
   | **ANN Projects** | [credit-card-customer-churn-prediction.ipynb](./deep-learning/ann/projects/credit-card-customer-churn-prediction/credit-card-customer-churn-prediction.ipynb) | Customer churn prediction using ANN. |
   | **CNN Projects** | [cat-vs-dog.ipynb](./deep-learning/cnn/projects/cat-vs-dog/cat-vs-dog.ipynb) | Binary image classification using CNN. |
+  |                  | [object-classification.ipynb](./deep-learning/cnn/projects/object-classification/object-classification.ipynb) | Multi-class image classification using CNN. |
   |                  | [object-detection.ipynb](./deep-learning/cnn/projects/object-detection-yolo/object-detection.ipynb) | Object detection using YOLO. |
 
 - **[scikit-learn](./scikit-learn)**: Scikit-learn estimator and transformer patterns.
