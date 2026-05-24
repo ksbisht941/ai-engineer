@@ -35,10 +35,17 @@ async def predict(
 ):
     image = read_file_as_image(await file.read())
     img_batch = np.expand_dims(image, 0)
-    
+
     predictions = MODEL.predict(img_batch)
-    print(predictions)
-    pass
+
+    predicted_class = CLASS_NAMES[np.argmax(predictions[0])]
+    confidence = np.max(predictions[0])
+    
+    return {
+        'class': predicted_class,
+        'confidence': float(confidence)
+    }
+
 
 
 
