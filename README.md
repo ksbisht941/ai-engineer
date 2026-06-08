@@ -1,307 +1,347 @@
-# AI Engineer
+# 🚀 The AI Engineer Journey: An Open-Source Learning Curriculum
 
-This repository contains various projects, notebooks, and resources for AI and Machine Learning engineering. It covers foundational libraries, Natural Language Processing (NLP), and Generative AI.
+Welcome to the **AI Engineer Journey** hub! This repository is designed as a structured, self-paced, open-source curriculum and sandbox for software engineers, data scientists, and AI enthusiasts aiming to master the practical discipline of **AI Engineering**.
 
-## Project Structure
+AI Engineering is the art and science of building, deploying, and optimizing intelligence-driven applications. Unlike traditional machine learning research, AI Engineering is focused on **systems, integration, orchestration, and production-grade software architecture**. This repository covers the entire path: from foundational programming and statistics to deep learning, computer vision, agentic systems, and MLOps.
 
-The project is organized into the following modules:
+---
 
-- **[python](./python)**: Foundations of Python programming.
+## 🗺️ The 5-Phase Learning Roadmap
 
-  | Notebook | Description |
-  | :--- | :--- |
-  | [basics.ipynb](./python/1_python_basics.ipynb) | Print, data types, variables, and literals. |
-  | [operators_loops.ipynb](./python/2_python_operators_loops.ipynb) | Operators, if-else, modules, and loops. |
-  | [loops_strings.ipynb](./python/3_python_loops_strings.ipynb) | Advanced loops and string manipulation. |
-  | [time_complexity.ipynb](./python/4_time_complexity.ipynb) | Efficiency, Big O, and examples. |
-  | [lists.ipynb](./python/5_python_lists.ipynb) | Memory management, methods, and comprehensions. |
-  | [tuples_sets_dicts.ipynb](./python/6_python_tuples_sets_dicts.ipynb) | Immutability of tuples, unique sets, and key-value dictionaries. |
-  | [functions.ipynb](./python/7_python_functions.ipynb) | Creation, scope, closures, and functional programming. |
-  | [oop_part1.ipynb](./python/8_python_oop_part1.ipynb) | Classes, objects, 'self', and dunder methods. |
-  | [oop_part2.ipynb](./python/9_python_oop_part2.ipynb) | Encapsulation, static members, and reference variables. |
-  | [oop_part3.ipynb](./python/10_python_oop_part3.ipynb) | Aggregation, inheritance types, MRO, polymorphism, and abstraction. |
-  | [exception_handling.ipynb](./python/11_python_exception_handling.ipynb) | Robust error management with try-except. |
-  | [decorators.ipynb](./python/12_python_decorators.ipynb) | Function wrapping and LEGB scope rules. |
-  | [iterators.ipynb](./python/13_python_iterators.ipynb) | Traversal protocols and custom iteration logic. |
-  | [generators.ipynb](./python/14_python_generators.ipynb) | Memory-efficient data processing with yield. |
+This repository is organized into a curriculum consisting of five progressive phases. Each phase builds on the previous one, transitioning from core math and programming foundations to productionizing complex AI agents.
 
-- **[numpy](./numpy)**: Fundamental numerical computing with NumPy.
+```
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                    PHASE 1: Software & Mathematical Foundations                 │
+│          Python OOP & Advanced Features ➔ NumPy ➔ Pandas ➔ Matplotlib ➔ Stats   │
+└───────────────────────┬─────────────────────────────────────────────────────────┘
+                        │
+                        ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                    PHASE 2: Classical Machine Learning & Pipelines              │
+│       ML Math ➔ Regressions & Classification ➔ Custom Estimators ➔ Ingestion    │
+└───────────────────────┬─────────────────────────────────────────────────────────┘
+                        │
+                        ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                    PHASE 3: Deep Learning, PyTorch & Computer Vision            │
+│       PyTorch Core ➔ ANNs, CNNs, RNNs ➔ OpenCV Processing ➔ YOLOv8 Detection    │
+└───────────────────────┬─────────────────────────────────────────────────────────┘
+                        │
+                        ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                    PHASE 4: Generative AI, LLMs & Stateful Agents               │
+│        GPT from Scratch ➔ LangChain Orchestration ➔ LangGraph Multi-Agents       │
+└───────────────────────┬─────────────────────────────────────────────────────────┘
+                        │
+                        ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                    PHASE 5: Production Deployment & MLOps                       │
+│    Pydantic Data Schemas ➔ Async FastAPI ➔ ZenML Orchestration ➔ Dockerization  │
+└─────────────────────────────────────────────────────────────────────────────────┘
+```
 
-  | Notebook | Description |
-  | :--- | :--- |
-  | [basics.ipynb](./numpy/1_numpy_basics.ipynb) | Basics, random generation, attributes. |
-  | [indexing_slicing.ipynb](./numpy/2_numpy_indexing_slicing.ipynb) | Reshaping, indexing, and slicing. |
-  | [operations.ipynb](./numpy/3_numpy_operations.ipynb) | Element-wise and advanced operations. |
-  | [exercises.ipynb](./numpy/4_numpy_exercises.ipynb) | Practice problems and exercises. |
+---
 
-- **[pandas](./pandas)**: Data manipulation and analysis using Pandas.
+## 📚 Phase 1: Software & Mathematical Foundations
+*Every robust AI system requires efficient, readable, and clean software architecture under the hood. AI engineers work at the intersection of heavy math and high-performance software.*
 
-  | Notebook | Description |
-  | :--- | :--- |
-  | [basics.ipynb](./pandas/1_pandas_basics.ipynb) | Series and DataFrame basics. |
-  | [selection_indexing.ipynb](./pandas/2_pandas_selection_indexing.ipynb) | Data selection, indexing, and slicing. |
-  | [missing_data.ipynb](./pandas/3_pandas_missing_data.ipynb) | Handling and cleaning missing data. |
-  | [combining_data.ipynb](./pandas/4_pandas_combining_data.ipynb) | Merging, Joining, and Concatenating DataFrames. |
-  | [grouping_aggregating.ipynb](./pandas/5_pandas_grouping_aggregating.ipynb) | GroupBy operations and aggregations. |
+### 🛠️ Python Foundations (`python/`)
+* **How it helps your journey**: Models and frameworks are written in Python. Mastering OOP, memory management, generators (for data streaming), and decorators is critical for customizing deep learning lifecycles and dataloaders.
+* **Notebooks**:
+  * [1_python_basics.ipynb](./python/1_python_basics.ipynb): Print, data types, variables, and literals.
+  * [2_python_operators_loops.ipynb](./python/2_python_operators_loops.ipynb): Operators, if-else, modules, and loops.
+  * [3_python_loops_strings.ipynb](./python/3_python_loops_strings.ipynb): Advanced loops and string manipulation.
+  * [4_time_complexity.ipynb](./python/4_time_complexity.ipynb): Complexity analysis, Big O notation, and performance optimization.
+  * [5_python_lists.ipynb](./python/5_python_lists.ipynb): Memory layouts, list operations, and comprehensions.
+  * [6_python_tuples_sets_dicts.ipynb](./python/6_python_tuples_sets_dicts.ipynb): Immutability of tuples, unique sets, and fast dict key lookups.
+  * [7_python_functions.ipynb](./python/7_python_functions.ipynb): Function scopes, closures, namespaces, and functional paradigms.
+  * [8_python_oop_part1.ipynb](./python/8_python_oop_part1.ipynb): Classes, objects, `self`, constructors, and dunder methods.
+  * [9_python_oop_part2.ipynb](./python/9_python_oop_part2.ipynb): Encapsulation, static members, and reference variable management.
+  * [10_python_oop_part3.ipynb](./python/10_python_oop_part3.ipynb): Aggregation, inheritance structures, MRO, polymorphism, and abstract base classes.
+  * [11_python_exception_handling.ipynb](./python/11_python_exception_handling.ipynb): Writing robust, fail-safe code blocks.
+  * [12_python_decorators.ipynb](./python/12_python_decorators.ipynb): Wrapping functions and standardizing interfaces (LEGB scope).
+  * [13_python_iterators.ipynb](./python/13_python_iterators.ipynb): Custom traversal protocols and iterable design patterns.
+  * [14_python_generators.ipynb](./python/14_python_generators.ipynb): Lazy execution and memory-efficient data processing with `yield`.
 
-- **[matplotlib](./matplotlib)**: Data visualization techniques using Matplotlib and Seaborn.
+### 🔢 Numerical Computing with NumPy (`numpy/`)
+* **How it helps your journey**: Neural networks operate on multi-dimensional matrices (tensors). NumPy introduces vectorization, element-wise math, and linear algebra operations without slow Python loops.
+* **Notebooks**:
+  * [1_numpy_basics.ipynb](./numpy/1_numpy_basics.ipynb): Array initialization, random number generation, and attributes.
+  * [2_numpy_indexing_slicing.ipynb](./numpy/2_numpy_indexing_slicing.ipynb): Reshaping arrays, boolean masking, and indexing techniques.
+  * [3_numpy_operations.ipynb](./numpy/3_numpy_operations.ipynb): Vectorized mathematics, matrix multiplication, and broadcasting.
+  * [4_numpy_exercises.ipynb](./numpy/4_numpy_exercises.ipynb): Practical coding exercises to solidify understanding.
 
-  | Notebook | Description |
-  | :--- | :--- |
-  | [basics.ipynb](./matplotlib/1_matplotlib_basics.ipynb) | Matplotlib basics and object-oriented interface. |
-  | [seaborn_plots.ipynb](./matplotlib/2_seaborn_plots.ipynb) | Statistical visualizations with Seaborn. |
-  | [plotly_cufflinks.ipynb](./matplotlib/3_plotly_cufflinks.ipynb) | Interactive charts with Plotly and Cufflinks. |
-  | [ipl_capstone_project.ipynb](./matplotlib/4_ipl_capstone_project.ipynb) | Data visualization project on IPL dataset. |
+### 🐼 Data Wrangling & Analysis with Pandas (`pandas/`)
+* **How it helps your journey**: Real-world AI engineering is 80% data cleaning. Pandas is the standard utility for processing raw database exports and user logs.
+* **Notebooks**:
+  * [1_pandas_basics.ipynb](./pandas/1_pandas_basics.ipynb): Understanding core Series and DataFrame structures.
+  * [2_pandas_selection_indexing.ipynb](./pandas/2_pandas_selection_indexing.ipynb): Selecting rows/columns, filtering, and indexing.
+  * [3_pandas_missing_data.ipynb](./pandas/3_pandas_missing_data.ipynb): Cleaning and imputing missing dataset features.
+  * [4_pandas_combining_data.ipynb](./pandas/4_pandas_combining_data.ipynb): Merging, joining, and concatenating structured dataframes.
+  * [5_pandas_grouping_aggregating.ipynb](./pandas/5_pandas_grouping_aggregating.ipynb): GroupBy splits, combinations, and custom aggregations.
 
-- **[statistics](./statistics)**: Statistical hypothesis testing and outlier detection.
+### 📊 Statistical Visualization with Matplotlib & Seaborn (`matplotlib/`)
+* **How it helps your journey**: Essential for plotting training losses, visualizing evaluation metrics (like confusion matrices), and exploring dataset feature correlations.
+* **Notebooks**:
+  * [1_matplotlib_basics.ipynb](./matplotlib/1_matplotlib_basics.ipynb): Subplots, figures, styles, and the object-oriented plotting interface.
+  * [2_seaborn_plots.ipynb](./matplotlib/2_seaborn_plots.ipynb): Statistical distributions, violin plots, and correlation heatmaps.
+  * [3_plotly_cufflinks.ipynb](./matplotlib/3_plotly_cufflinks.ipynb): Creating interactive charts for web visualization.
+  * [4_ipl_capstone_project.ipynb](./matplotlib/4_ipl_capstone_project.ipynb): An end-to-end exploratory data visualization analysis.
 
-  | Notebook | Description |
-  | :--- | :--- |
-  | [chi-square.ipynb](./statistics/chi-square.ipynb) | Chi-Square test implementation. |
-  | [outliers.ipynb](./statistics/outliers.ipynb) | Outlier detection techniques. |
-  | [t-test.ipynb](./statistics/t-test.ipynb) | T-Test implementation. |
-  | [z-test.ipynb](./statistics/z-test.ipynb) | Z-Test implementation. |
+### 📐 Applied Statistics & Testing (`statistics/`)
+* **How it helps your journey**: Used to detect outliers in model inputs, analyze distribution shifts (data drift), and run hypothesis tests (e.g., A/B testing a new LLM prompt).
+* **Notebooks**:
+  * [chi-square.ipynb](./statistics/chi-square.ipynb): Categorical relation testing using Chi-Square.
+  * [outliers.ipynb](./statistics/outliers.ipynb): Z-score and IQR-based outlier detection methods.
+  * [t-test.ipynb](./statistics/t-test.ipynb): Validating statistical difference between two group means.
+  * [z-test.ipynb](./statistics/z-test.ipynb): Testing proportions and means against normal distributions.
 
-- **[machine-learning](./machine-learning)**: Practical machine learning modules covering supervised learning, preprocessing, and end-to-end projects.
+---
 
-  **Supervised — Regression**
+## 🧠 Phase 2: Classical Machine Learning & Pipelines
+*Moving from data processing to building predictive models and end-to-end ML pipelines.*
 
-  | Notebook | Description |
-  | :--- | :--- |
-  | [linear-regression-1.ipynb](./machine-learning/models/supervised/regression/notebooks/linear-regression-1.ipynb) | Linear Regression implementation from scratch (Part 1). |
-  | [linear-regression-2.ipynb](./machine-learning/models/supervised/regression/notebooks/linear-regression-2.ipynb) | Linear Regression implementation from scratch (Part 2). |
-  | [simple-linear-regression.ipynb](./machine-learning/models/supervised/regression/notebooks/simple-linear-regression.ipynb) | Simple Linear Regression from scratch. |
-  | [multiple-linear-regression.ipynb](./machine-learning/models/supervised/regression/notebooks/multiple-linear-regression.ipynb) | Multiple Linear Regression. |
-  | [linear-regression-assumptions.ipynb](./machine-learning/models/supervised/regression/notebooks/linear-regression-assumptions.ipynb) | Verifying assumptions of Linear Regression. |
-  | [regression-metrics.ipynb](./machine-learning/models/supervised/regression/notebooks/regression-metrics.ipynb) | Evaluation metrics: MAE, MSE, RMSE, and R² score. |
-  | [batch-gradient-descent.ipynb](./machine-learning/models/supervised/regression/notebooks/batch-gradient-descent.ipynb) | Batch Gradient Descent — math derivation and implementation. |
-  | [stochastic-gradient-descent.ipynb](./machine-learning/models/supervised/regression/notebooks/stochastic-gradient-descent.ipynb) | Stochastic Gradient Descent — math derivation and implementation. |
+### 📈 Machine Learning Models & Custom Pipelines (`machine-learning/`, `scikit-learn/`)
+* **How it helps your journey**: Writing algorithms from scratch builds deep intuition about optimization and loss calculations. Using Scikit-Learn teaches the `fit`/`transform`/`predict` API structure, which is the backbone of production-ready pipelines.
+* **Notebooks**:
+  * **Supervised — Regression**:
+    * [linear-regression-1.ipynb](./machine-learning/models/supervised/regression/notebooks/linear-regression-1.ipynb): Linear regression implementation from scratch (math derivation & NumPy).
+    * [linear-regression-2.ipynb](./machine-learning/models/supervised/regression/notebooks/linear-regression-2.ipynb): Extending scratch linear regression with gradient descent.
+    * [simple-linear-regression.ipynb](./machine-learning/models/supervised/regression/notebooks/simple-linear-regression.ipynb): Single variable regression model.
+    * [multiple-linear-regression.ipynb](./machine-learning/models/supervised/regression/notebooks/multiple-linear-regression.ipynb): High-dimensional regression modeling.
+    * [linear-regression-assumptions.ipynb](./machine-learning/models/supervised/regression/notebooks/linear-regression-assumptions.ipynb): Verifying multicollinearity, homoscedasticity, and normality.
+    * [regression-metrics.ipynb](./machine-learning/models/supervised/regression/notebooks/regression-metrics.ipynb): Mathematically computing MAE, MSE, RMSE, and R² scores.
+    * [batch-gradient-descent.ipynb](./machine-learning/models/supervised/regression/notebooks/batch-gradient-descent.ipynb): Batch gradient update calculations.
+    * [stochastic-gradient-descent.ipynb](./machine-learning/models/supervised/regression/notebooks/stochastic-gradient-descent.ipynb): Stochastic gradient updates.
+  * **Supervised — Classification**:
+    * [logistic-regression.ipynb](./machine-learning/models/supervised/classification/logistic-regression.ipynb): Binary classification and probability thresholding.
+    * [rf_learning_tool.ipynb](./machine-learning/models/supervised/classification/rf_learning_tool.ipynb): Random forest ensembles.
+  * **Custom Scikit-Learn Components**:
+    * [estimator.ipynb](./scikit-learn/estimator.ipynb): Building custom ML models adhering to the Scikit-Learn API.
+    * [transformers.ipynb](./scikit-learn/transformers.ipynb): Creating stateful custom feature transformers (e.g., custom encoders).
 
-  **Notes** (`ml-notes/`): simple-linear-regression, multiple-linear-regression, polynomial-regression, assumptions, mae, mse, rmse, r2-score, ridge-l2, lasso-l1, elastic-net.
+### 🧹 Preprocessing & Feature Engineering (`machine-learning/preprocessing/`)
+* **How it helps your journey**: Models expect structured, clean numerical vectors. Feature scaling, encoding, and missing value imputation prevent data leakage and ensure model convergence.
+* **Notebooks**:
+  * **Scaling**: [standard-scaler.ipynb](./machine-learning/preprocessing/scaling/standard-scaler.ipynb) (Z-score normalization) | [min-max-scaler.ipynb](./machine-learning/preprocessing/scaling/min-max-scaler.ipynb) (Bound normalization).
+  * **Encoding**: [label-encoding.ipynb](./machine-learning/preprocessing/encoding/label-encoding.ipynb) (Ordinal mapping) | [one-hot-encoding.ipynb](./machine-learning/preprocessing/encoding/one-hot-encoding.ipynb) (Nominal arrays) | [ordinal-encoding.ipynb](./machine-learning/preprocessing/encoding/ordinal-encoding.ipynb) (Custom rank scaling).
+  * **Imputation**: [simple-imputer.ipynb](./machine-learning/preprocessing/missing-values/simple-imputer.ipynb) (Mean/median replacements) | [knn-imputer.ipynb](./machine-learning/preprocessing/missing-values/knn-imputer.ipynb) (Nearest neighbor analysis).
 
-  **Supervised — Classification**
+### 📥 Data Ingestion Pipelines (`machine-learning/data-ingestion/`)
+* **How it helps your journey**: Models consume data from databases, JSON interfaces, or APIs. Setting up memory-efficient chunk loaders prevents Out-Of-Memory (OOM) exceptions.
+* **Notebooks**:
+  * [working-with-csv.ipynb](./machine-learning/data-ingestion/working-with-csv.ipynb): Chunking, using data converters, and low-memory CSV reading.
+  * [working-with-json.ipynb](./machine-learning/data-ingestion/working-with-json.ipynb): Parsing complex, nested JSON objects.
+  * [working-with-rest-api.ipynb](./machine-learning/data-ingestion/working-with-rest-api.ipynb): Fetching and parsing HTTP response data in streaming batches.
+  * [working-with-sql.ipynb](./machine-learning/data-ingestion/working-with-sql.ipynb): Connecting, querying, and streaming records from relational tables.
 
-  | Notebook | Description |
-  | :--- | :--- |
-  | [logistic-regression.ipynb](./machine-learning/models/supervised/classification/logistic-regression.ipynb) | Logistic Regression classifier. |
-  | [rf_learning_tool.ipynb](./machine-learning/models/supervised/classification/rf_learning_tool.ipynb) | Random Forest learning tool. |
+### 💼 Production ML Projects (`machine-learning/projects/`)
+* **How it helps your journey**: Translating business goals into robust ML systems.
+* **Projects**:
+  * [ford-car-price-prediction](./machine-learning/projects/ford-car-price-prediction): End-to-end pricing model.
+  * [heart-disease-prediction](./machine-learning/projects/heart-disease-prediction): Health risk classifier.
+  * [insurance-coverage-prediction](./machine-learning/projects/insurance-coverage-prediction): Cost regression analysis.
+  * [reddit-sentimental](./machine-learning/projects/reddit-sentimental): Text analytics and extraction.
+  * [document-validation](./machine-learning/projects/document-validation): Hybrid Computer Vision pipeline (detects glare, crops faces, checks blur, and removes background).
 
-  **Preprocessing**
+---
 
-  | Module | Notebook | Description |
-  | :--- | :--- | :--- |
-  | **Scaling** | [standard-scaler.ipynb](./machine-learning/preprocessing/scaling/standard-scaler.ipynb) | Standardization using `StandardScaler`. |
-  |             | [min-max-scaler.ipynb](./machine-learning/preprocessing/scaling/min-max-scaler.ipynb) | Normalization using `MinMaxScaler`. |
-  | **Encoding** | [label-encoding.ipynb](./machine-learning/preprocessing/encoding/label-encoding.ipynb) | Label Encoding for ordinal categories. |
-  |              | [one-hot-encoding.ipynb](./machine-learning/preprocessing/encoding/one-hot-encoding.ipynb) | One-Hot Encoding for nominal categories. |
-  |              | [ordinal-encoding.ipynb](./machine-learning/preprocessing/encoding/ordinal-encoding.ipynb) | Ordinal Encoding with custom order. |
-  | **Missing Values** | [simple-imputer.ipynb](./machine-learning/preprocessing/missing-values/simple-imputer.ipynb) | Imputation with mean/median/mode. |
-  |                    | [knn-imputer.ipynb](./machine-learning/preprocessing/missing-values/knn-imputer.ipynb) | KNN-based imputation. |
+## 👁️ Phase 3: Deep Learning, PyTorch & Computer Vision
+*Transitioning to neural network architectures, custom GPU training loops, and computer vision models.*
 
-  **Data Ingestion**
+### 🔥 PyTorch Core Hub (`pytorch/`)
+* **How it helps your journey**: PyTorch is the industry-standard deep learning library. Mastering PyTorch tensor operations, manual backpropagation, custom dataset classes, and training pipelines is essential for writing custom LLM fine-tuning scripts.
+* **Notebooks & Projects**:
+  * [1_tensors-in-pytorch.ipynb](./pytorch/1_tensors-in-pytorch.ipynb): Creating, manipulating, and computing on GPU with PyTorch tensors.
+  * [2_autograd-in-pytorch.ipynb](./pytorch/2_autograd-in-pytorch.ipynb): Visualizing and calculating computation graphs and gradients automatically.
+  * [3_pytorch-training-pipeline.ipynb](./pytorch/3_pytorch-training-pipeline.ipynb): Building an optimized custom model training loop.
+  * [4_pytorch-nn-module.ipynb](./pytorch/4_pytorch-nn-module.ipynb): Subclassing `nn.Module` to build modular neural network layers.
+  * [5_dataset-and-dataloader.ipynb](./pytorch/5_dataset-and-dataloader.ipynb): Building data pipelines with custom classes, batching, and multithreading.
+  * [cnn-fashion-mnist-pytorch-gpu.ipynb](./pytorch/cnn-fashion-mnist-pytorch-gpu.ipynb): Harnessing GPU acceleration to train a classification CNN.
+  * **PyTorch Projects**:
+    * [image_classification](./pytorch/projects/image_classification/image_classification.ipynb): Custom network to classify visual objects.
+    * [pytorch_chatbot](./pytorch/projects/pytorch_chatbot/main.py): A custom feed-forward network to parse intent and reply to user inputs.
 
-  | Notebook | Description |
-  | :--- | :--- |
-  | [working-with-csv.ipynb](./machine-learning/data-ingestion/working-with-csv.ipynb) | Reading CSV files with pandas (`read_csv` options, chunking, converters). |
-  | [working-with-json.ipynb](./machine-learning/data-ingestion/working-with-json.ipynb) | Loading and parsing JSON data into DataFrames. |
-  | [working-with-rest-api.ipynb](./machine-learning/data-ingestion/working-with-rest-api.ipynb) | Fetching data from REST APIs for ML pipelines. |
-  | [working-with-sql.ipynb](./machine-learning/data-ingestion/working-with-sql.ipynb) | Querying SQL databases and loading results into pandas. |
+### 🧠 Neural Architectures (`deep-learning/`, `nlp/`)
+* **How it helps your journey**: Core neural network building blocks. Includes convolutional structures (padding, pooling, strides) and sequential architectures (RNNs) for natural language.
+* **Notebooks & NLP Tasks**:
+  * **CNN Internals**: [keras-padding.ipynb](./deep-learning/cnn/keras-padding.ipynb) (Valid vs Same Padding) | [keras-pooling.ipynb](./deep-learning/cnn/keras-pooling.ipynb) (Max vs Avg Pooling) | [keras-strides.ipynb](./deep-learning/cnn/keras-strides.ipynb) (Downsampling spatial grids).
+  * **RNN Internals**: [rnn_architecture.ipynb](./deep-learning/rnn/rnn_architecture.ipynb) (Understanding feedback connections, time steps, and text inputs).
+  * **Projects**:
+    * [credit-card-customer-churn-prediction.ipynb](./deep-learning/ann/projects/credit-card-customer-churn-prediction/credit-card-customer-churn-prediction.ipynb): Dense Artificial Neural Network (ANN) classifier.
+    * [cat-vs-dog.ipynb](./deep-learning/cnn/projects/cat-vs-dog/cat-vs-dog.ipynb): Binary vision classification.
+    * [object-classification.ipynb](./deep-learning/cnn/projects/object-classification/object-classification.ipynb): Multi-class vision classification.
+  * **Natural Language Processing (`nlp/`)**:
+    * [nlp_text_preprocessing.ipynb](./nlp/text-preprocessing/nlp_text_preprocessing.ipynb): Lowercasing, stop-words, regex matching, and tokenization.
+    * [nlp_identify_pos_and_names_entities.ipynb](./nlp/identify-pos-and-names-entities/nlp_identify_pos_and_names_entities.ipynb): Extracting Part-of-Speech tags and Named Entities (NER) from unstructured text.
+    * [nlp_sentiment_analysis.ipynb](./nlp/sentiment-analysis/nlp_sentiment_analysis.ipynb): Text classification and sentiment evaluation.
 
-  **Projects**
+### 🖼️ Computer Vision & Real-time Processing (`opencv/`, `yolo/`)
+* **How it helps your journey**: Integrating real-world visual feeds into AI applications. Covers image transformation matrices, filtering, gesture tracking, and real-time edge object detection.
+* **Notebooks**:
+  * **OpenCV Basics**:
+    * [basics.ipynb](./opencv/1_opencv_basics.ipynb): Image input/output operations, format grids, and color channels.
+    * [transformations.ipynb](./opencv/2_opencv_transformations.ipynb): Resizing, cropping, translation, and rotation math.
+    * [processing.ipynb](./opencv/3_opencv_processing.ipynb): Blurring kernels, Sobel/Canny edge detection, and threshold masks.
+    * [drawing.ipynb](./opencv/4_opencv_drawing.ipynb): Render layers (bounding boxes, overlays, text annotations).
+    * [video.ipynb](./opencv/5_opencv_video.ipynb): Capturing and writing video frames in high performance.
+    * [gesture_control.ipynb](./opencv/6_gesture_control.ipynb): Using MediaPipe to track skeletons and trigger keyboard/mouse scripts.
+    * [motion_detector.ipynb](./opencv/7_motion_detector.ipynb): Background subtraction and pixel change delta calculations.
+  * **YOLO (You Only Look Once)**:
+    * [detection.ipynb](./yolo/detection.ipynb): Deploying YOLOv8 pre-trained models to detect classes.
+    * [segmentation.ipynb](./yolo/segmentation.ipynb): Real-time semantic instance boundary outlining.
 
-  | Project | Description |
-  | :--- | :--- |
-  | [ford-car-price-prediction](./machine-learning/projects/ford-car-price-prediction) | Predicting car prices based on features. |
-  | [heart-disease-prediction](./machine-learning/projects/heart-disease-prediction) | Classification of heart disease risk. |
-  | [insurance-coverage-prediction](./machine-learning/projects/insurance-coverage-prediction) | Predicting insurance coverage costs. |
-  | [reddit-sentimental](./machine-learning/projects/reddit-sentimental) | Sentiment analysis on Reddit posts. |
-  | [document-validation](./machine-learning/projects/document-validation) | Computer-vision pipeline for portrait photo validation (glare detection, face crop, blur check, background removal). |
+---
 
+## 🤖 Phase 4: Generative AI, LLMs & Stateful Agents
+*The cutting edge of AI Engineering: building neural transformers, orchestrating chains, and deploying autonomous agent systems.*
 
-- **[deep-learning](./deep-learning)**: Deep learning modules covering Convolutional Neural Networks and related techniques.
+### 🛠️ Building GPT from Scratch (`build-gpt/`)
+* **How it helps your journey**: The absolute best way to demystify LLMs is to build one. This module implements a GPT architecture from scratch based on Andrej Karpathy's `nanoGPT` design, teaching self-attention, masking, tokenization, and multi-head scaling.
+* **Notebooks**:
+  * [gpt-dev.ipynb](./build-gpt/gpt-dev.ipynb): Developing, training, and sampling from a custom character-level Generative Transformer.
 
-  | Module | Notebook | Description |
-  | :--- | :--- | :--- |
-  | **CNN** | [keras-padding.ipynb](./deep-learning/cnn/keras-padding.ipynb) | Exploring `valid` vs `same` padding in Conv2D layers on MNIST. |
-  |         | [keras-pooling.ipynb](./deep-learning/cnn/keras-pooling.ipynb) | Pooling strategies (Max, Average) for spatial downsampling. |
-  |         | [keras-strides.ipynb](./deep-learning/cnn/keras-strides.ipynb) | Effect of strides on feature map dimensions. |
-  | **ANN Projects** | [credit-card-customer-churn-prediction.ipynb](./deep-learning/ann/projects/credit-card-customer-churn-prediction/credit-card-customer-churn-prediction.ipynb) | Customer churn prediction using ANN. |
-  | **CNN Projects** | [cat-vs-dog.ipynb](./deep-learning/cnn/projects/cat-vs-dog/cat-vs-dog.ipynb) | Binary image classification using CNN. |
-  |                  | [object-classification.ipynb](./deep-learning/cnn/projects/object-classification/object-classification.ipynb) | Multi-class image classification using CNN. |
-  |                  | [object-detection.ipynb](./deep-learning/cnn/projects/object-detection-yolo/object-detection.ipynb) | Object detection using YOLO. |
+### ⛓️ LangChain LLM Orchestration (`lang-chain/`)
+* **How it helps your journey**: Core framework for constructing LLM applications. Learn retrieval architectures, vector embedding caches, custom tools, and the LangChain Expression Language (LCEL).
+* **Modules & Projects**:
+  * **Core Modules**:
+    * [chat_models](./lang-chain/chat_models): Standardizing API integration (OpenAI, HuggingFace, local Ollama).
+    * [embedding_models](./lang-chain/embedding_models): Mapping text to mathematical vector embeddings.
+    * [document_loader](./lang-chain/document_loader): Parsers for PDFs, plain text, and online web pages.
+    * [retrievers](./lang-chain/retrievers): Smart search (Arxiv integrations, MMR, and Multi-query expansions).
+    * [text_splitter](./lang-chain/text_splitter): Managing document chunking boundaries to respect tokens.
+    * [tools](./lang-chain/tools): Exposing backend scripts/APIs as executable tools to an LLM.
+    * [runnable](./lang-chain/runnable): Designing declaratively chained pipelines using LCEL.
+    * [vector_store](./lang-chain/vector_store): Storing and retrieving vector indices.
+  * **Projects**:
+    * [cine-sage](./lang-chain/projects/cine-sage): Structured movie metadata extractor utilizing OpenAI schema extraction.
+    * [chatbot](./lang-chain/projects/chatbot): FastAPI chatbot integrating a vector store index and streaming responses.
+    * [session-based-chatbot](./lang-chain/projects/session-based-chatbot): Chatbot managing multiple user sessions and memory caches.
 
-- **[scikit-learn](./scikit-learn)**: Scikit-learn estimator and transformer patterns.
+### 🕸️ LangGraph Multi-Agent Workflows (`lang-graph/`)
+* **How it helps your journey**: While linear chains are great, production LLM systems require loops, conditional logic, human approvals, and collaborative agent structures. LangGraph models workflows as stateful, cyclic graphs.
+* **Notebooks**:
+  * **Workflows**:
+    * [1_state_graph_basics.ipynb](./lang-graph/workflows/1_state_graph_basics.ipynb): Nodes, edges, and state transition fundamentals.
+    * [2_llm_node_integration.ipynb](./lang-graph/workflows/2_llm_node_integration.ipynb): Modifying graph states using LLM node updates.
+    * [3_prompt_chaining.ipynb](./lang-graph/workflows/3_prompt_chaining.ipynb): Sequencing LLM nodes for multi-step reasoning.
+    * [4_parallel_nodes.ipynb](./lang-graph/workflows/4_parallel_nodes.ipynb): Distributing operations in parallel nodes.
+    * [5_structured_output.ipynb](./lang-graph/workflows/5_structured_output.ipynb): Enforcing Pydantic schemas on LangGraph node exits.
+    * [6_conditional_edges.ipynb](./lang-graph/workflows/6_conditional_edges.ipynb): Dynamic routing decisions based on output parsing.
+    * [7_review_reply_workflow.ipynb](./lang-graph/workflows/7_review_reply_workflow.ipynb): Multi-stage customer review generation workflow.
+  * **Stateful Chatbots**:
+    * [1_basic_chatbot.ipynb](./lang-graph/chatbot/1_basic_chatbot.ipynb): Basic chat graph loop.
+    * [2_chatbot_persistence.ipynb](./lang-graph/chatbot/2_chatbot_persistence.ipynb): Graph memory checkpoints.
+    * [3_chatbot_stream.ipynb](./lang-graph/chatbot/3_chatbot_stream.ipynb): Streaming state updates node-by-node.
+    * [4_chatbot_tools.ipynb](./lang-graph/chatbot/4_chatbot_tools.ipynb): Exposing client-side tools to the graph.
+    * [5_chatbot_mcp.ipynb](./lang-graph/chatbot/5_chatbot_mcp.ipynb): Connecting to Model Context Protocol (MCP) servers.
+    * [6_chatbot_sqlite.ipynb](./lang-graph/chatbot/6_chatbot_sqlite.ipynb): Saving graph histories in an external SQL database.
+    * [7_chatbot_observibility.ipynb](./lang-graph/chatbot/7_chatbot_observibility.ipynb): Tracing node performance and prompt tokens.
+    * [8_chatbot_rag.ipynb](./lang-graph/chatbot/8_chatbot_rag.ipynb): Graph-based Retrieval-Augmented Generation (RAG).
+    * [9_chatbot_hitl.ipynb](./lang-graph/chatbot/9_chatbot_hitl.ipynb): Implementing human verification and manual override states (Human-In-The-Loop).
+    * [10_chatbot_stm_trimming.ipynb](./lang-graph/chatbot/10_chatbot_stm_trimming.ipynb): Trimming old messages to preserve token context windows.
+    * [11_chatbot_stm_deletion.ipynb](./lang-graph/chatbot/11_chatbot_stm_deletion.ipynb): Deleting obsolete context states.
+    * [12_chatbot_stm_summary.ipynb](./lang-graph/chatbot/12_chatbot_stm_summary.ipynb): Summarizing historical context dynamically.
 
-  | Notebook | Description |
-  | :--- | :--- |
-  | [estimator.ipynb](./scikit-learn/estimator.ipynb) | Building and using scikit-learn estimators. |
-  | [transformers.ipynb](./scikit-learn/transformers.ipynb) | Building and using scikit-learn transformers. |
+---
 
-- **[nlp](./nlp)**: Comprehensive NLP modules covering text processing and analysis.
+## ⚙️ Phase 5: Production Deployment & MLOps
+*Transforming prototypes into production-grade systems: scaling, validation, serving, and automation.*
 
-  | Module | Notebook | Description |
-  | :--- | :--- | :--- |
-  | **Text Preprocessing** | [nlp_text_preprocessing.ipynb](./nlp/text-preprocessing/nlp_text_preprocessing.ipynb) | Lowercasing, stop words, regex, and tokenization. |
-  |                        | [practice.ipynb](./nlp/text-preprocessing/practice.ipynb) | Practice exercises for text preprocessing. |
-  | **POS & NER** | [nlp_identify_pos_and_names_entities.ipynb](./nlp/identify-pos-and-names-entities/nlp_identify_pos_and_names_entities.ipynb) | Parts-of-speech tagging and Named Entity Recognition. |
-  | **Sentiment Analysis** | [nlp_sentiment_analysis.ipynb](./nlp/sentiment-analysis/nlp_sentiment_analysis.ipynb) | Analyzing text sentiment and emotions. |
+### 🛡️ Pydantic Data Validation (`pydantic/`)
+* **How it helps your journey**: Production APIs cannot trust raw JSON payloads. Pydantic validates input schemas, forces type hints, handles custom validations, and ensures consistent outputs from structured LLM calls.
+* **Notebooks**:
+  * [basics.ipynb](./pydantic/basics.ipynb): Model definitions, Field configurations, and type requirements.
+  * [field_validators.ipynb](./pydantic/field_validators.ipynb): Creating custom input filters (e.g., matching character sets).
+  * [model_validators.ipynb](./pydantic/model_validators.ipynb): Validating multiple fields at once (e.g., comparing field combinations).
+  * [computed_fields.ipynb](./pydantic/computed_fields.ipynb): Dynamically generating derived properties.
+  * [nested_models.ipynb](./pydantic/nested_models.ipynb): Building complex database schemas.
+  * [serialization.ipynb](./pydantic/serialization.ipynb): Exporting validated structures into JSONs.
 
-- **[opencv](./opencv)**: Computer vision and image processing with OpenCV.
+### 🌐 FastAPI Production Applications (`fastapi/`)
+* **How it helps your journey**: FastAPI is the go-to web framework for ML models and LLMs due to its asynchronous runtime, fast performance, and built-in OpenAPI integration.
+* **Architecture (`fastapi/`)**:
+  * [app/main.py](./fastapi/app/main.py): Async server start, middleware registration, and routes.
+  * [app/core/](./fastapi/app/core): Environment settings and async SQLAlchemy engine configuration.
+  * [app/models/](./fastapi/app/models): Database schema models mapping directly to relational databases.
+  * [app/schemas/](./fastapi/app/schemas): Request and response models.
+  * [app/crud/](./fastapi/app/crud): Encapsulated database queries.
+  * [app/api/](./fastapi/app/api): Clean modular routes.
+  * [alembic/](./fastapi/alembic): Generating and executing SQL schema migration files.
 
-  | Notebook | Description |
-  | :--- | :--- |
-  | [basics.ipynb](./opencv/1_opencv_basics.ipynb) | Installation and basic image I/O. |
-  | [transformations.ipynb](./opencv/2_opencv_transformations.ipynb) | Resizing, cropping, rotation, and flipping. |
-  | [processing.ipynb](./opencv/3_opencv_processing.ipynb) | Blurring, edge detection, and thresholding. |
-  | [drawing.ipynb](./opencv/4_opencv_drawing.ipynb) | Drawing shapes (lines, rectangles, circles) and text. |
-  | [video.ipynb](./opencv/5_opencv_video.ipynb) | Video capture and processing basics. |
-  | [gesture_control.ipynb](./opencv/6_gesture_control.ipynb) | Hand gesture control using MediaPipe. |
-  | [motion_detector.ipynb](./opencv/7_motion_detector.ipynb) | Real-time motion detection implementation. |
+### 🐳 MLOps & Pipeline Orchestration (`mlops/`)
+* **How it helps your journey**: Moving models from notebooks to automated systems. Covers orchestrating data dependencies and containerizing applications.
+* **Modules & Projects**:
+  * [zen_pipeline.ipynb](./mlops/zenml/zen_pipeline.ipynb): Orchestrating end-to-end training and deployment tasks using ZenML.
+  * [dogs-vs-cats](./mlops/projects/dogs-vs-cats): Packaging a Keras CNN model into a Docker container and serving it via a Streamlit web interface.
 
-  *Resources: [input_img](./opencv/input_img), [output_img](./opencv/output_img), [output_video](./opencv/output_video).*
+---
 
-- **[lang-chain](./lang-chain)**: A comprehensive collection of Generative AI modules and projects.
+## 📚 The AI Engineer's Bookshelf (`resources/`)
+Supplement your notebook sandbox with a curated collection of industry-leading ebooks stored in `resources/eBooks/`.
 
-  | Category | Module / Project | Description |
-  | :--- | :--- | :--- |
-  | **Core** | [chat_models](./lang-chain/chat_models) | Various LLM chat implementations (OpenAI, HuggingFace, Local). |
-  |          | [embedding_models](./lang-chain/embedding_models) | Vector embedding generation and management. |
-  |          | [document_loader](./lang-chain/document_loader) | Loaders for PDF, Text, and Web content. |
-  |          | [retrievers](./lang-chain/retrievers) | Advanced retrieval techniques (Arxiv, MMR, Multi-query). |
-  |          | [text_splitter](./lang-chain/text_splitter) | Document chunking strategies. |
-  |          | [tools](./lang-chain/tools) | Custom tool definitions for agentic workflows. |
-  |          | [runnable](./lang-chain/runnable) | LangChain Expression Language (LCEL) and runnable components. |
-  |          | [vector_store](./lang-chain/vector_store) | Vector database integration. |
-  | **Projects** | [cine-sage](./lang-chain/projects/cine-sage) | Structured movie metadata extraction. |
-  |              | [chatbot](./lang-chain/projects/chatbot) | FastAPI-based chatbot with vector database and streaming API. |
-  |              | [session-based-chatbot](./lang-chain/projects/session-based-chatbot) | Session-aware chatbot with memory management. |
+| Book | Focus Area | Key Takeaway |
+| :--- | :--- | :--- |
+| **[AI Engineering](./resources/eBooks/AI%20Engineering.pdf)** by Chip Huyen | AI Systems | Building and deploying real-time AI applications at scale. |
+| **[Designing ML Systems](./resources/eBooks/Designing%20Machine%20Learning%20Systems.pdf)** by Chip Huyen | Architecture | Data flow design, model updates, drift detection, and monitoring. |
+| **[Deep Learning](./resources/eBooks/Deep%20Learning%20by%20Ian%20Goodfellow%2C%20Yoshua%20Bengio%2C%20Aaron%20Courville.pdf)** | Math & Foundations | The theoretical foundation for deep neural networks. |
+| **[Hands-On Machine Learning](./resources/eBooks/Hands-On%20Machine%20Learning%20with%20Scikit-Learn%2C%20Keras%2C%20and%20TensorFlow.pdf)** | ML Implementations | Pratical machine learning modeling from classical to deep networks. |
+| **[Hands-On Large Language Models](./resources/eBooks/Hands-On%20Large%20Language%20Models.pdf)** | Modern GenAI | Fine-tuning, prompt engineering, and building apps using transformers. |
+| **[LLM Engineers Handbook](./resources/eBooks/LLM%20Engineers%20Handbook.pdf)** | Advanced LLMOps | Production patterns for RAG, optimization, and deploying LLMs. |
+| **[Generative Deep Learning](./resources/eBooks/Generative-Deep-Learning.pdf)** | Generative AI | Implementing VAEs, GANs, Diffusion models, and GPTs. |
+| **[NLP with Transformers](./resources/eBooks/NLP%20with%20Transformer%20models.pdf)** | Transformer Models | Deep-dive on BERT, GPT, and custom tokenizers. |
+| **[Mathematics for Machine Learning](./resources/eBooks/Mathematics%20for%20Machine%20Learning.pdf)** | Math Foundations | Linear algebra, calculus, probability, and optimization math. |
 
-- **[lang-graph](./lang-graph)**: Interactive agentic workflows and chatbots using LangGraph.
+---
 
-  **Workflows**
+## 🚀 Sandbox Setup & Installation
 
-  | Notebook | Description |
-  | :--- | :--- |
-  | [state_graph_basics.ipynb](./lang-graph/workflows/1_state_graph_basics.ipynb) | StateGraph fundamentals and node/edge setup. |
-  | [llm_node_integration.ipynb](./lang-graph/workflows/2_llm_node_integration.ipynb) | Integrating LLM nodes into a graph workflow. |
-  | [prompt_chaining.ipynb](./lang-graph/workflows/3_prompt_chaining.ipynb) | Advanced prompt chaining techniques for complex tasks. |
-  | [parallel_nodes.ipynb](./lang-graph/workflows/4_parallel_nodes.ipynb) | Running multiple nodes in parallel within a graph. |
-  | [structured_output.ipynb](./lang-graph/workflows/5_structured_output.ipynb) | Extracting structured outputs from LLM nodes. |
-  | [conditional_edges.ipynb](./lang-graph/workflows/6_conditional_edges.ipynb) | Dynamic routing using conditional edges. |
-  | [review_reply_workflow.ipynb](./lang-graph/workflows/7_review_reply_workflow.ipynb) | Automated customer review response generation. |
-
-  **Chatbot**
-
-  | Notebook | Description |
-  | :--- | :--- |
-  | [basic_chatbot.ipynb](./lang-graph/chatbot/1_basic_chatbot.ipynb) | Basic chatbot implementation using LangGraph. |
-  | [chatbot_persistence.ipynb](./lang-graph/chatbot/2_chatbot_persistence.ipynb) | Chatbot with memory persistence across turns. |
-  | [chatbot_stream.ipynb](./lang-graph/chatbot/3_chatbot_stream.ipynb) | Streaming responses in a LangGraph chatbot. |
-  | [chatbot_tools.ipynb](./lang-graph/chatbot/4_chatbot_tools.ipynb) | Tool-augmented chatbot with agentic capabilities. |
-  | [chatbot_mcp.ipynb](./lang-graph/chatbot/5_chatbot_mcp.ipynb) | Chatbot using Model Context Protocol (MCP). |
-  | [chatbot_sqlite.ipynb](./lang-graph/chatbot/6_chatbot_sqlite.ipynb) | Chatbot with SQLite-based persistent memory. |
-  | [chatbot_observability.ipynb](./lang-graph/chatbot/7_chatbot_observibility.ipynb) | Observability and tracing in LangGraph chatbots. |
-  | [chatbot_rag.ipynb](./lang-graph/chatbot/8_chatbot_rag.ipynb) | Retrieval-Augmented Generation (RAG) chatbot. |
-  | [chatbot_hitl.ipynb](./lang-graph/chatbot/9_chatbot_hitl.ipynb) | Human-in-the-loop (HITL) chatbot with approval steps. |
-  | [chatbot_stm_trimming.ipynb](./lang-graph/chatbot/10_chatbot_stm_trimming.ipynb) | Short-term memory management via message trimming. |
-  | [chatbot_stm_deletion.ipynb](./lang-graph/chatbot/11_chatbot_stm_deletion.ipynb) | Short-term memory management via message deletion. |
-  | [chatbot_stm_summary.ipynb](./lang-graph/chatbot/12_chatbot_stm_summary.ipynb) | Short-term memory management via conversation summarization. |
-
-
-- **[yolo](./yolo)**: Object detection and instance segmentation using YOLO models.
-
-  | Notebook | Description |
-  | :--- | :--- |
-  | [detection.ipynb](./yolo/detection.ipynb) | Object detection using YOLOv8. |
-  | [segmentation.ipynb](./yolo/segmentation.ipynb) | Instance segmentation using YOLOv8. |
-
-- **[fastapi](./fastapi)**: Production-grade FastAPI application with async database, migrations, and layered architecture.
-
-  | Module | Description |
-  | :--- | :--- |
-  | [app/main.py](./fastapi/app/main.py) | Application entry point. |
-  | [app/core/](./fastapi/app/core) | Env-based config (`pydantic-settings`) and async SQLAlchemy engine/session. |
-  | [app/models/](./fastapi/app/models) | SQLAlchemy database models. |
-  | [app/schemas/](./fastapi/app/schemas) | Pydantic validation schemas. |
-  | [app/crud/](./fastapi/app/crud) | Async CRUD operations. |
-  | [app/api/](./fastapi/app/api) | API router and endpoints. |
-  | [alembic/](./fastapi/alembic) | Database migration scripts. |
-
-- **[pydantic](./pydantic)**: Data validation and settings management using Pydantic v2.
-
-  | Notebook | Description |
-  | :--- | :--- |
-  | [basics.ipynb](./pydantic/basics.ipynb) | BaseModel, Field, Annotated, type constraints, and Optional fields. |
-  | [field_validators.ipynb](./pydantic/field_validators.ipynb) | Field-level validation with `@field_validator` (name transformation, age range). |
-  | [model_validators.ipynb](./pydantic/model_validators.ipynb) | Cross-field validation with `@model_validator` and nested models. |
-  | [computed_fields.ipynb](./pydantic/computed_fields.ipynb) | Derived fields using `@computed_field` and `@property` (BMI calculation). |
-  | [nested_models.ipynb](./pydantic/nested_models.ipynb) | Composing nested Pydantic models (ContactDetails, AddressDetails). |
-  | [serialization.ipynb](./pydantic/serialization.ipynb) | Serialization with `model_dump()` and `model_dump_json()` (include, exclude, exclude_unset). |
-
-- **[mlops](./mlops)**: MLOps workflows and pipeline orchestration.
-
-  | Notebook | Description |
-  | :--- | :--- |
-  | [zen_pipeline.ipynb](./mlops/zenml/zen_pipeline.ipynb) | End-to-end ML pipeline orchestration using ZenML. |
-
-  **Projects**
-
-  | Project | Description |
-  | :--- | :--- |
-  | [dogs-vs-cats](./mlops/projects/dogs-vs-cats) | Dockerized Streamlit app serving a CNN model for dog vs. cat image classification. |
-
-- **[resources](./resources)**: Reference materials and eBooks.
-
-  | Resource | Description |
-  | :--- | :--- |
-  | [AI Engineering](./resources/eBooks/AI%20Engineering.pdf) | AI Engineering by Chip Huyen. |
-  | [Deep Learning](./resources/eBooks/Deep%20Learning%20by%20Ian%20Goodfellow%2C%20Yoshua%20Bengio%2C%20Aaron%20Courville.pdf) | Deep Learning by Goodfellow, Bengio & Courville. |
-  | [Hands-On ML (Scikit-Learn, Keras, TF)](./resources/eBooks/Hands-On%20Machine%20Learning%20with%20Scikit-Learn%2C%20Keras%2C%20and%20TensorFlow.pdf) | Hands-On Machine Learning by Aurélien Géron. |
-  | [Hands-On LLMs](./resources/eBooks/Hands-On%20Large%20Language%20Models.pdf) | Hands-On Large Language Models. |
-  | [LLM Engineers Handbook](./resources/eBooks/LLM%20Engineers%20Handbook.pdf) | LLM Engineers Handbook. |
-  | [Designing ML Systems](./resources/eBooks/Designing%20Machine%20Learning%20Systems.pdf) | Designing Machine Learning Systems by Chip Huyen. |
-  | [Generative Deep Learning](./resources/eBooks/Generative-Deep-Learning.pdf) | Generative Deep Learning by David Foster. |
-  | [NLP with Transformers](./resources/eBooks/NLP%20with%20Transformer%20models.pdf) | Natural Language Processing with Transformers. |
-  | [Mathematics for ML](./resources/eBooks/Mathematics%20for%20Machine%20Learning.pdf) | Mathematics for Machine Learning. |
-  | [And more...](./resources/eBooks) | 25 eBooks covering ML, DL, MLOps, and Generative AI. |
-
-## Getting Started
-
-Each directory contains specific notebooks or scripts related to the topic. Most of the content consists of Jupyter Notebooks (`.ipynb`), which can be run in any standard Jupyter environment or VS Code.
+Follow these instructions to set up your local development environment:
 
 ### Prerequisites
+- Python 3.10+
+- CUDA-compatible GPU (optional, for accelerated deep learning notebooks)
 
-- Python 3.x
-- Jupyter Notebook / JupyterLab or VS Code with Jupyter extension
+### 1. Clone & Set Up Environment
+```bash
+# Clone the repository
+git clone https://github.com/ksbisht941/ai-engineer.git
+cd ai-engineer
 
-### Setup Environment
+# Create a python virtual environment
+python3 -m venv .venv
 
-To run the notebooks in this repository, it is recommended to use the provided virtual environment:
+# Activate the virtual environment
+# On macOS/Linux:
+source .venv/bin/activate
+# On Windows:
+.venv\Scripts\activate
+```
 
-1. **Create and Activate Virtual Environment**:
-   ```bash
-   # Create the environment (if not already created)
-   python3 -m venv .venv
+### 2. Install Core Dependencies
+```bash
+pip install --upgrade pip
+pip install ipykernel numpy pandas matplotlib seaborn scikit-learn
+```
+For deep learning, PyTorch, and OpenCV dependencies, refer to specific installation commands inside their respective notebooks or use:
+```bash
+pip install torch torchvision torchaudio opencv-python ultralytics pydantic fastapi langchain langgraph zenml
+```
 
-   # Activate the environment
-   # On macOS/Linux:
-   source .venv/bin/activate
-   ```
+### 3. Open in VS Code & Run Notebooks
+1. Open this repository directory in VS Code.
+2. Open any `.ipynb` file.
+3. Click on **Select Kernel** in the top right corner.
+4. Select the `.venv` environment from your list.
 
-2. **Install Dependencies**:
-   ```bash
-   pip install --upgrade pip
-   pip install ipykernel numpy pandas matplotlib seaborn scikit-learn
-   ```
+---
 
-3. **Select Kernel in VS Code**:
-   When opening a `.ipynb` file, click on "Select Kernel" in the top right corner and choose the `.venv` environment.
+## 🤝 Contributing
+This hub is open-source! We welcome contributions that add:
+- New notebooks exploring cutting-edge AI architectures.
+- Clean implementations of classical ML algorithms from scratch.
+- Detailed agentic workflows or production templates.
+- Typo corrections or code optimization PRs.
 
-Required libraries include:
-  - `numpy`
-  - `pandas`
-  - `matplotlib`
-  - `seaborn`
-  - `scikit-learn`
-  - `nltk` / `spacy` (for NLP)
-  - `google-generativeai` / `langchain` / `langgraph` (for Gen-AI)
+To contribute, fork the repository, make your changes in a feature branch, and submit a Pull Request. Let's build the ultimate AI Engineering roadmap together!
